@@ -13,6 +13,7 @@
     xmlns:org.polarsys.capella.core.data.information="http://www.polarsys.org/capella/core/information/5.0.0"
     xmlns:org.polarsys.capella.core.data.information.datatype="http://www.polarsys.org/capella/core/information/datatype/5.0.0"
     xmlns:org.polarsys.capella.core.data.information.datavalue="http://www.polarsys.org/capella/core/information/datavalue/5.0.0"
+    xmlns:org.polarsys.capella.core.data.interaction="http://www.polarsys.org/capella/core/interaction/5.0.0"
     xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/5.0.0"
     xmlns:org.polarsys.capella.core.data.oa="http://www.polarsys.org/capella/core/oa/5.0.0"
     xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/5.0.0"
@@ -570,13 +571,1022 @@
           id="3d270aea-2adf-40be-b6ff-3bf09a6d9a38" name="System Functions">
         <ownedSystemFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
             id="3cacda0f-39ce-4c08-948b-7cef4ff54ae7" name="Root System Function">
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="b5f57ac3-9f0a-4642-9331-d484b69bac3f" targetElement="#a3623bfe-3d5d-4095-9ba2-d2bd649363f5"
+              sourceElement="#1b0025af-5022-4fa4-8022-29e6951e5f3a"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="3eb5f1ed-2cd8-41e0-b5ae-81e809dbb8ae" targetElement="#e45ca364-cba1-41e9-8771-98d85597733e"
+              sourceElement="#8f349861-b8ce-43db-9a29-3cbf58f053d4"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="6b88d38f-49b2-4a23-a92d-53c6a7167f9b" targetElement="#32f15c2d-8f91-4843-8374-afd820edf4cc"
+              sourceElement="#ee23c6a9-81e9-4db2-a4a3-a60e9688d6f1"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="677bb4e5-0e19-4d48-afac-1bba8f318a96" targetElement="#b0ee2bd5-2f2a-4851-af10-f6ad34d72c98"
+              sourceElement="#94ad95b4-dc07-45fc-8ad4-5b532e771e1a"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="06bffdf2-25d5-45b1-b884-d54ecffcb020" targetElement="#b6fa9038-e9d9-4944-8c2d-9c77c6cfe281"
+              sourceElement="#413747f5-dec6-430c-b369-a63665f56b6d"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="54e381e0-ce08-461c-ba38-f1f05b8490b3" targetElement="#6034240b-f798-438d-8e8b-0a8924d874bc"
+              sourceElement="#f24a7910-a29f-48f8-b8bc-6a0c65cd8b70"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="0aa75289-c918-4223-b402-deef347d3fc2" targetElement="#7ea7228f-55c8-4252-b140-df8ebc8479d6"
+              sourceElement="#c367c9b4-b500-4150-bfe8-6d35885e899a"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="0f747fff-f5b8-4fce-bbc8-7ef984002d22" targetElement="#96cbf981-f6bf-4e3d-88ee-3ea9e7dafa78"
+              sourceElement="#491e6406-6654-482a-862f-47ef19a858f1"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="132bea51-5b4a-44cd-a462-e9465634fedb" targetElement="#5e3b5c8e-76f0-4298-9ca5-46ab8eb2ce51"
+              sourceElement="#f3f95938-055e-47f9-8928-f180b9a787b2"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="59e199da-8610-489f-86f2-1d53c6958486" targetElement="#8d14976b-92f1-490b-a126-e71efb6e9ec8"
+              sourceElement="#68d35b92-8887-41fc-9d66-46d0ea20ac50"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="1290eff3-f552-4b75-b2be-48e65dbeab23" targetElement="#0b3fb577-b0d8-4cf9-949d-b548e4a67bac"
+              sourceElement="#1c7664e8-c4c6-45e2-b03d-c4c8a8c8670b"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="e52a4a54-3c01-4fd1-85c3-315a18580f96" targetElement="#0400f2a0-4146-4983-8bf3-5b538f95ae86"
+              sourceElement="#f41e9b99-53c6-41d5-87e3-042780a3baac"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="1ff153c6-8b96-4333-aa70-7c1668fa6083" targetElement="#67023ed6-4fbe-42ed-a28f-fc8167886010"
+              sourceElement="#bb34f60a-9fcf-459f-aeba-eafe0b7557e4"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="934a2b52-6150-438c-988f-3164ca26ccc6" targetElement="#aa3cbd2c-3b29-4131-94d1-45259cd42f41"
+              sourceElement="#8da82aa1-0ea5-47ea-b478-589ce036c160"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="78850902-d861-44c4-9aad-930168b88254" targetElement="#4a2dacc7-6ac5-45c2-8e46-40294ae77daa"
+              sourceElement="#a23a7d6a-4dfb-421c-9574-67e238da5e3e"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="b439864c-c2a6-44a4-a838-a3875c102cd5" targetElement="#d0eb2cb0-0905-4721-b243-2c72a0817928"
+              sourceElement="#b7f73d2f-841d-419d-97fa-45e75dda003d"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="2b2bf0ad-219a-4507-b84d-7d685d981905" targetElement="#a0c8a2c8-d704-4e61-8e17-599694bb0ff9"
+              sourceElement="#ee8984da-4269-4a5d-9a00-d9f7f0ecba6f"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="aa2ae623-caa8-43bc-91d8-d990375eafd8" targetElement="#7ce823c4-f861-4f78-9ad1-32aef6bca64c"
+              sourceElement="#0756ce7b-0836-4548-be21-c9d1e1670eda"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="0a640a92-9b41-45b6-9044-6cac78c5b146" targetElement="#830b484a-cd1e-4882-a961-539c8e757098"
+              sourceElement="#478e0282-4568-4f91-8df3-201bd70b637d"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="6ba8523d-3315-47db-81a9-3d88fc90c8b2" targetElement="#30384aff-5150-42c8-b2a9-687fe9985739"
+              sourceElement="#e87823a3-e06b-4caf-a5dd-0c53ee18c7ce"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="23a93475-ee9d-421d-b87c-7d33e95b4c3d" targetElement="#98032ad1-d7ce-46e9-b96d-5bc194ed28b5"
+              sourceElement="#a55b16f5-8681-42dc-8b6d-9489e75b9625"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="a8522d25-a610-4e59-abb9-d176d08ca39f" targetElement="#36492632-2a2d-475c-bf1d-1f8e4b6d8c68"
+              sourceElement="#8a3cfe55-7a20-41c1-b5b8-8556d2c74363"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="a17d3cc9-7380-4be2-b8df-d2397435a3ec" targetElement="#01803458-9748-4e66-8f28-a7193d9013da"
+              sourceElement="#029f525d-f857-4eba-a680-7db0bbaf5813"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="2bfbf235-0209-44f9-83f4-c229353e5c91" targetElement="#4a37f1b0-3a14-409e-a4fe-d14d3d7a82c2"
+              sourceElement="#7914565e-b638-4c5a-8912-16f64771c50e"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="e3f4d955-202d-4147-a2c1-f88c408b36cf" targetElement="#4cf9296c-420e-4dae-89b9-13ef9a6e4812"
+              sourceElement="#d247ff05-b925-400d-bba7-2528becc097c"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="865e6f46-9e46-49e7-93a1-6fffcab151c1" targetElement="#3afc3e20-9225-4f4b-902a-7c48b8209afc"
+              sourceElement="#763f40f0-4182-4884-bf7c-c9f30602f5e1"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="2adaa501-3298-4c6c-a789-175270a02775" targetElement="#4379a49a-bb4e-420f-8508-8a6df86dc0e5"
+              sourceElement="#4d85bf9d-187d-43ab-af2a-a3918f4a85f6"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="4e918e2c-d016-40d9-af18-cb1e06c23024" targetElement="#fafc615f-e92c-4354-9b01-d47700bf15a6"
+              sourceElement="#8d602011-23c2-4c0d-9b29-d4a7786a395c"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="fea9326f-f6b2-4389-9c25-28baabd275f4" targetElement="#6fb98d9f-f042-4aa3-b123-ac4920e7e97a"
+              sourceElement="#0f87f7d9-3452-471d-b5df-06b7be934343"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="c1237701-45f9-4dee-8b38-2f95471b1c64" targetElement="#e7694c24-a5be-4942-a538-9141ca78eafa"
+              sourceElement="#2c4df3a6-db75-45dc-a0bb-de82aa145796"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="e51e7e83-f518-4e6e-89a5-e3f949858089" targetElement="#e99c00f4-b0e1-4e87-b77d-8065d5bf1568"
+              sourceElement="#2f496720-4a36-47c7-8c81-708e58a0df9d"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="e6dcc64e-fcdb-406e-b247-b9a2fb4e3b42" targetElement="#0e4d1fd5-4559-4c7e-8095-bdb9b14733f9"
+              sourceElement="#ad15d5c1-308f-42b2-a3c5-4dfca0e50200"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="54f83212-f899-4d62-a089-b2de8a37984e" targetElement="#6fa00a59-cb8c-4d72-a7b8-89a86dde5044"
+              sourceElement="#f1c1c436-7073-4af3-9bc4-9d983723f110"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="1a1c3c3f-45f2-467e-9173-42c9fcef335b" targetElement="#e9ebed26-6b8c-4e8d-b3e0-898a1bb1dd4d"
+              sourceElement="#f271d620-eb88-4e76-a849-40708e0d11c0"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="e7994728-b4a7-4da6-ab2d-406d81353b0a" targetElement="#32b5843a-cc91-4461-a440-d69fad19415f"
+              sourceElement="#4dea0546-f039-477a-a119-3f820803e107"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="4cc11c1a-7fc6-45a1-8867-66c048664b75" targetElement="#13311743-1933-4282-a0c5-7a7c32a443bf"
+              sourceElement="#cc09adcc-6838-4955-b966-ff542f58ef48"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="be036450-8914-43a2-a976-b39a0d8f764f" targetElement="#b08892bf-b0b9-4f90-b0e6-fdc836dd4a4f"
+              sourceElement="#98064198-f430-40e1-9577-de446f762168"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="934d441d-5ed0-42ab-9c0c-860f9c13ff72" targetElement="#2174850d-f308-4b0d-9abc-700a5f7186a1"
+              sourceElement="#b0bb6fca-69e6-4c85-82fa-d97f48d79afe"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="d42d474a-40eb-42c0-b933-4eb7be7082a7" targetElement="#5f8ad5c4-e554-49dc-ae6d-1de338af3935"
+              sourceElement="#06226160-88f0-4c4a-89b1-938565235ce2"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="bdc67510-a3c5-4dd8-824f-3e62b233a5dc" targetElement="#1990189c-069d-450f-9230-1baf33d7e395"
+              sourceElement="#a8190850-3ea5-4a7f-8814-c6c0e0d2593d"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="605974d9-18d2-4292-8d34-54a62a662987" targetElement="#c304feee-c620-4bed-a88b-a2063ee600ce"
+              sourceElement="#6e3335e6-32a2-4e4b-b575-ab8309dec63f"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="b18e6c51-3ddc-40de-9698-d69447d40a8f" targetElement="#b3372f62-dacc-4552-a245-e99110b0ab7f"
+              sourceElement="#98527631-9d94-436d-8248-501548f19859"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="238d7b53-053d-445f-88e2-b828d77254af" targetElement="#bbaa4fcf-6a03-47e3-b951-1483a9f65842"
+              sourceElement="#f8e68b29-d019-4311-b070-64feb3a6c22c"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="0a59d889-3341-49f6-9f77-f137191662cb" targetElement="#4601905e-c090-4f8d-bdea-b2ae6ef3e6ca"
+              sourceElement="#3b8b5508-8d4e-44ed-98de-aba65e20cf79"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="4095a071-8fc3-4b2a-9c50-c46ce916149e" targetElement="#08f6603d-4e76-455f-af08-868891960408"
+              sourceElement="#1b80e57c-96a5-4cfd-a8c8-b1bde678d0fd"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="c519e369-5915-4cf2-998e-57f6bc5af425" targetElement="#1d9c9a8c-5a13-4531-8559-4547336f5b68"
+              sourceElement="#695f56fd-edc8-482a-8b63-f99f6fd94dd1"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="c7c1ce39-7ea5-40b8-a5b9-4d8616c540bc" targetElement="#b4e79edf-dd0e-4f96-b290-0513b2872052"
+              sourceElement="#1c72d17e-31d5-483c-a6a7-11e4d3e41dff"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="8d70eb7a-4b9d-44d9-9ae1-946da975184b" targetElement="#217ce227-dff4-4f1f-b006-2453e798db5a"
+              sourceElement="#7fc07571-5026-4737-92ff-a78f916a7bbc"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="d61b1940-3a80-4475-8e6a-641ea99e6173" targetElement="#f1b1566c-906f-4161-91e9-f39b7af40e9f"
+              sourceElement="#bb4a1f18-0257-40aa-8ab9-8ad13176322d"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="07ef12cc-e410-42ea-a4f9-d2a1ca2e1a87" targetElement="#b0974f99-bf59-41fd-b287-5ec87195cb89"
+              sourceElement="#92f069ab-f59e-45ff-837f-5066bedaacc7"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="6a0c5329-5f9f-454d-b27d-d9f9f02baed6" targetElement="#0f0a4b4f-649b-4514-8406-038d3b270a9c"
+              sourceElement="#1aba007e-8b79-4665-aa04-29fc5fd09cf2"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="9d39f5ec-345e-497f-a5c0-908f2896fb44" targetElement="#cd1a342d-30d2-40ba-8278-cac4d6c662c3"
+              sourceElement="#f6338c0e-08d4-4fe8-a800-67b04538a914"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="2f567221-0613-490c-a06f-ce3e70be80a2" targetElement="#fdfd06e8-82e7-4f28-b8b8-feacda84394c"
+              sourceElement="#06e7f9e7-2afa-4f60-906b-186909ccae01"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="97f67978-da25-471f-b14b-5f7f3e202d1a" targetElement="#33ee8e9c-cc51-4a8d-8441-27e86446e1dc"
+              sourceElement="#a2861cad-b9f8-4165-ac8c-34ebc2880ff6"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="f7ffdca9-80d3-4125-8755-2d0048cda2da" targetElement="#77f2531e-ac28-440d-9cdb-578d1aec9ea9"
+              sourceElement="#ec38e27f-244d-4782-b7a3-08a68725a259"/>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
+              id="e5fc29cb-1ba0-4cb4-8c4a-22e6403d89d3" name="Install Enginer in Stand">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="f24a7910-a29f-48f8-b8bc-6a0c65cd8b70" involved="#0851d523-f166-4861-9658-1a18c0087933"
+                source="#029f525d-f857-4eba-a680-7db0bbaf5813" target="#b7f73d2f-841d-419d-97fa-45e75dda003d"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="b7f73d2f-841d-419d-97fa-45e75dda003d" involved="#c1b2a882-dcb0-4689-8174-5043d0feb56e"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="029f525d-f857-4eba-a680-7db0bbaf5813" involved="#15627781-88a6-4031-9196-5532eedcf2eb"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="7914565e-b638-4c5a-8912-16f64771c50e" involved="#f9016b72-c91c-4e53-8fcd-cd4eadbe6ecb"
+                source="#b7f73d2f-841d-419d-97fa-45e75dda003d" target="#2f496720-4a36-47c7-8c81-708e58a0df9d"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="2f496720-4a36-47c7-8c81-708e58a0df9d" involved="#6a439cc5-e605-4664-89e0-1507a22931ef"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="f271d620-eb88-4e76-a849-40708e0d11c0" involved="#929d0c93-bba2-4396-85b6-916b5b161ff6"
+                source="#029f525d-f857-4eba-a680-7db0bbaf5813" target="#98527631-9d94-436d-8248-501548f19859"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="98527631-9d94-436d-8248-501548f19859" involved="#3cd717fc-cb5b-4baa-bcfd-1d2cb6f2c2b9"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="3b8b5508-8d4e-44ed-98de-aba65e20cf79" involved="#8dbda0cc-d052-4597-b9e6-0f49c5bb8ca9"
+                source="#98527631-9d94-436d-8248-501548f19859" target="#1c72d17e-31d5-483c-a6a7-11e4d3e41dff"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="1c72d17e-31d5-483c-a6a7-11e4d3e41dff" involved="#2cc11264-8e57-4332-b81e-3fe30739728e"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="1aba007e-8b79-4665-aa04-29fc5fd09cf2" involved="#c49eadaf-1b26-4c71-ac5c-4223dcee2003"
+                source="#1c72d17e-31d5-483c-a6a7-11e4d3e41dff" target="#a2861cad-b9f8-4165-ac8c-34ebc2880ff6"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="a2861cad-b9f8-4165-ac8c-34ebc2880ff6" involved="#54d66d68-cbf2-4613-ab53-7152d76e08b3"/>
+            <ownedFunctionalChainRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainRealization"
+                id="8b8fbb1a-f821-4398-91e6-da692d6f3d68" targetElement="#be02cb0f-276e-4ce1-ad26-3cac8cb651af"
+                sourceElement="#e5fc29cb-1ba0-4cb4-8c4a-22e6403d89d3"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
+              id="d5ff3270-1dff-4f31-8d4b-10293cbf18f8" name="Connect Controls">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="1b0025af-5022-4fa4-8022-29e6951e5f3a" involved="#37a23665-2942-4f54-a5eb-815b09d7bd84"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="8f349861-b8ce-43db-9a29-3cbf58f053d4" involved="#047eb3c7-5672-434c-bd73-f8347a9573d3"
+                source="#1b0025af-5022-4fa4-8022-29e6951e5f3a" target="#ee23c6a9-81e9-4db2-a4a3-a60e9688d6f1"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="ee23c6a9-81e9-4db2-a4a3-a60e9688d6f1" involved="#fef7e181-af9e-4f6a-9255-180c503b078f"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="94ad95b4-dc07-45fc-8ad4-5b532e771e1a" involved="#ad246d38-39f1-4989-8ff3-465a042ad038"
+                source="#ee23c6a9-81e9-4db2-a4a3-a60e9688d6f1" target="#413747f5-dec6-430c-b369-a63665f56b6d"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="413747f5-dec6-430c-b369-a63665f56b6d" involved="#c5d9ca82-3829-438a-9b1c-74d5926fa2cb"/>
+            <ownedFunctionalChainRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainRealization"
+                id="ced10fb4-65c1-42a2-abe2-7f2b3e890420" targetElement="#c01eedc5-a60e-4621-8c45-a01d72644449"
+                sourceElement="#d5ff3270-1dff-4f31-8d4b-10293cbf18f8"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
+              id="a08deb68-520f-485e-a7fe-17f4104e8835" name="Connect Fuel Supply">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="f3f95938-055e-47f9-8928-f180b9a787b2" involved="#3b7fb55f-095a-41ca-8118-986da2a5641b"
+                source="#8a3cfe55-7a20-41c1-b5b8-8556d2c74363" target="#f41e9b99-53c6-41d5-87e3-042780a3baac"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="f41e9b99-53c6-41d5-87e3-042780a3baac" involved="#f86c1f4b-6d4a-47b6-988c-422bc50cd4e2"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="8a3cfe55-7a20-41c1-b5b8-8556d2c74363" involved="#ea7650a1-97dc-4b7b-abed-69e4ac7e5e1d"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="4d85bf9d-187d-43ab-af2a-a3918f4a85f6" involved="#884279fc-632f-42aa-88fc-b1b5d30e8c85"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="f1c1c436-7073-4af3-9bc4-9d983723f110" involved="#dfd38f6b-9211-4120-959c-94d6cbd9d5f7"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="4dea0546-f039-477a-a119-3f820803e107" involved="#cf0f5504-668b-42da-8b58-d72a545af56f"
+                source="#4d85bf9d-187d-43ab-af2a-a3918f4a85f6" target="#f1c1c436-7073-4af3-9bc4-9d983723f110"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="f8e68b29-d019-4311-b070-64feb3a6c22c" involved="#62337070-53d2-46b9-87a0-2be05edc2f40"
+                source="#4d85bf9d-187d-43ab-af2a-a3918f4a85f6" target="#8a3cfe55-7a20-41c1-b5b8-8556d2c74363"/>
+            <ownedFunctionalChainRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainRealization"
+                id="ac56e70e-2250-43e6-820f-4e7be123dc8c" targetElement="#0995b756-caed-4c1b-b00d-00774849583e"
+                sourceElement="#a08deb68-520f-485e-a7fe-17f4104e8835"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
+              id="527f3f53-deb3-440c-819b-96d45f089015" name="Program Controlls">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="c367c9b4-b500-4150-bfe8-6d35885e899a" involved="#7c3f9cbc-e006-495a-a996-22d2d0321c68"
+                source="#e87823a3-e06b-4caf-a5dd-0c53ee18c7ce" target="#a23a7d6a-4dfb-421c-9574-67e238da5e3e"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="a23a7d6a-4dfb-421c-9574-67e238da5e3e" involved="#52d400db-0fb2-47d5-8f54-0d49f6ccf3f1"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="e87823a3-e06b-4caf-a5dd-0c53ee18c7ce" involved="#138c9645-3a68-4b37-b46a-969ffb139f05"/>
+            <ownedFunctionalChainRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainRealization"
+                id="5b6ef883-139d-4afa-8092-055c6fd0bc7e" targetElement="#b8ec12e7-be25-41a4-9ae2-99d4f9ea5fb2"
+                sourceElement="#527f3f53-deb3-440c-819b-96d45f089015"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
+              id="9df6515f-358b-4cb9-94be-de72b00724e6" name="Operate">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="68d35b92-8887-41fc-9d66-46d0ea20ac50" involved="#4c51aafe-d238-4b6e-8436-0d7d79baf475"
+                source="#0756ce7b-0836-4548-be21-c9d1e1670eda" target="#ee8984da-4269-4a5d-9a00-d9f7f0ecba6f"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="ee8984da-4269-4a5d-9a00-d9f7f0ecba6f" involved="#52d400db-0fb2-47d5-8f54-0d49f6ccf3f1"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="0756ce7b-0836-4548-be21-c9d1e1670eda" involved="#f0877968-fcdf-45db-bb84-08d9e836e926"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="d247ff05-b925-400d-bba7-2528becc097c" involved="#7c543690-43b3-4285-bf13-4d73b3bf77f0"
+                source="#0756ce7b-0836-4548-be21-c9d1e1670eda" target="#ad15d5c1-308f-42b2-a3c5-4dfca0e50200"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="ad15d5c1-308f-42b2-a3c5-4dfca0e50200" involved="#50582738-5992-4473-9519-14c00be164b0"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="98064198-f430-40e1-9577-de446f762168" involved="#c0bd1142-0d40-4e39-839f-c786f2660d62"
+                source="#ad15d5c1-308f-42b2-a3c5-4dfca0e50200" target="#6e3335e6-32a2-4e4b-b575-ab8309dec63f"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="6e3335e6-32a2-4e4b-b575-ab8309dec63f" involved="#50fee3aa-5fc9-4c64-a1c3-0f43e8bb4ea5"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="695f56fd-edc8-482a-8b63-f99f6fd94dd1" involved="#6d958487-42a5-4aeb-8ebb-601431c8ffa5"
+                source="#6e3335e6-32a2-4e4b-b575-ab8309dec63f" target="#7fc07571-5026-4737-92ff-a78f916a7bbc"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="7fc07571-5026-4737-92ff-a78f916a7bbc" involved="#eb7c827f-7b8a-4018-9c05-f668cf54f121"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="92f069ab-f59e-45ff-837f-5066bedaacc7" involved="#55e85700-1d9c-4a1c-a65c-044e2d268a03"
+                source="#7fc07571-5026-4737-92ff-a78f916a7bbc" target="#ec38e27f-244d-4782-b7a3-08a68725a259"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="ec38e27f-244d-4782-b7a3-08a68725a259" involved="#e2a92043-a23b-4cc9-b167-183f046896b6"/>
+            <ownedFunctionalChainRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainRealization"
+                id="cfa7fcfb-3c4a-43f4-b94d-629e6c4d5024" targetElement="#6536469c-e050-412d-9258-c35c00cdb274"
+                sourceElement="#9df6515f-358b-4cb9-94be-de72b00724e6"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
+              id="854dde69-2c2e-4e3a-912f-03af3a4df520" name="Monitor">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="1c7664e8-c4c6-45e2-b03d-c4c8a8c8670b" involved="#0f54c3fd-2c5f-4601-8daf-b69443f850c8"
+                source="#478e0282-4568-4f91-8df3-201bd70b637d" target="#bb34f60a-9fcf-459f-aeba-eafe0b7557e4"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="bb34f60a-9fcf-459f-aeba-eafe0b7557e4" involved="#d4cb87ab-a6fc-4448-9be1-5d637114f5b0"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="478e0282-4568-4f91-8df3-201bd70b637d" involved="#18151f19-a402-4e1f-8fc7-a2596e89bdf6"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="763f40f0-4182-4884-bf7c-c9f30602f5e1" involved="#16a5d8cd-360a-468c-89d0-94e7a53c0e16"
+                source="#0f87f7d9-3452-471d-b5df-06b7be934343" target="#bb34f60a-9fcf-459f-aeba-eafe0b7557e4"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="0f87f7d9-3452-471d-b5df-06b7be934343" involved="#06f3235f-2b46-418f-951a-e141f3e2f266"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="cc09adcc-6838-4955-b966-ff542f58ef48" involved="#177e90cc-521b-41bd-b1a9-64d0144fa8a7"
+                source="#a8190850-3ea5-4a7f-8814-c6c0e0d2593d" target="#bb34f60a-9fcf-459f-aeba-eafe0b7557e4"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="a8190850-3ea5-4a7f-8814-c6c0e0d2593d" involved="#d41bd49b-1028-438d-bb8e-defc7732dddc"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="1b80e57c-96a5-4cfd-a8c8-b1bde678d0fd" involved="#9f0f84b4-69a3-45f8-8782-b3e76f1ca1c3"
+                source="#bb4a1f18-0257-40aa-8ab9-8ad13176322d" target="#a8190850-3ea5-4a7f-8814-c6c0e0d2593d"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="bb4a1f18-0257-40aa-8ab9-8ad13176322d" involved="#e2a92043-a23b-4cc9-b167-183f046896b6"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="f6338c0e-08d4-4fe8-a800-67b04538a914" involved="#2f3da35d-cfba-4337-8438-b929ba2683ff"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="06e7f9e7-2afa-4f60-906b-186909ccae01" involved="#a9557756-6c90-431b-a5b0-d0599e9c1250"
+                source="#478e0282-4568-4f91-8df3-201bd70b637d" target="#f6338c0e-08d4-4fe8-a800-67b04538a914"/>
+            <ownedFunctionalChainRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainRealization"
+                id="4d7d303b-ed97-462a-b223-d359ee1f280c" targetElement="#156e6d1c-1d5f-4ed1-ae82-bc646c9e5cd2"
+                sourceElement="#854dde69-2c2e-4e3a-912f-03af3a4df520"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
+              id="c0728fba-3cc0-49cc-a22a-d97f98c3a0af" name="Evaluate">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="491e6406-6654-482a-862f-47ef19a858f1" involved="#3d92e27e-a1ae-411b-9082-bed97f48f892"
+                source="#a55b16f5-8681-42dc-8b6d-9489e75b9625" target="#8da82aa1-0ea5-47ea-b478-589ce036c160"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="8da82aa1-0ea5-47ea-b478-589ce036c160" involved="#15627781-88a6-4031-9196-5532eedcf2eb"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="a55b16f5-8681-42dc-8b6d-9489e75b9625" involved="#8576a56b-eb65-4933-8806-13a3cbd830a7"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="8d602011-23c2-4c0d-9b29-d4a7786a395c" involved="#7c7d0b4a-bd5b-49f9-bbbf-f3df13c5b06c"
+                source="#a55b16f5-8681-42dc-8b6d-9489e75b9625" target="#2c4df3a6-db75-45dc-a0bb-de82aa145796"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="2c4df3a6-db75-45dc-a0bb-de82aa145796" involved="#9149c749-1269-4f0f-af3f-c91e4602884f"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="b0bb6fca-69e6-4c85-82fa-d97f48d79afe" involved="#7c00125f-9339-45a5-91f6-5c55a90e12df"
+                source="#2c4df3a6-db75-45dc-a0bb-de82aa145796" target="#06226160-88f0-4c4a-89b1-938565235ce2"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="06226160-88f0-4c4a-89b1-938565235ce2" involved="#06f3235f-2b46-418f-951a-e141f3e2f266"/>
+            <ownedFunctionalChainRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainRealization"
+                id="d9dd864d-bbbb-4f09-9e86-24219ae11a3b" targetElement="#d8fdaa60-8ef8-49a5-b0c4-eb6691d2d806"
+                sourceElement="#c0728fba-3cc0-49cc-a22a-d97f98c3a0af"/>
+          </ownedFunctionalChains>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="8576a56b-eb65-4933-8806-13a3cbd830a7" name="Request Evaluation">
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="08205a92-856c-4f74-9b6b-45a6c28c388d" name="outEngine Request"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="acad4dd6-bf79-4cf2-8286-9e6516d1fe4d" name="outRequest"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="7563835f-e81d-4662-aed1-0a422fbc51ad" targetElement="#f134e881-64df-4d14-bbd9-b862fc6b0295"
+                sourceElement="#8576a56b-eb65-4933-8806-13a3cbd830a7"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="4b6c43c1-f0d6-4f00-a47e-38504218c36c" name="Set ECU Parameters">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="7a46de87-3155-43aa-8bf2-8adc4a2d44e2" name="inECU Parameters"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="3e270066-90f9-41d2-a9ff-bdd8489806b3" targetElement="#635063c1-7d74-4fb4-a64b-f76e5cb1f94a"
+                sourceElement="#4b6c43c1-f0d6-4f00-a47e-38504218c36c"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="15627781-88a6-4031-9196-5532eedcf2eb" name="Install Engine">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="511d1348-1b10-4f93-8ac6-dfd298ccb9ed" name="inEngine Request"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="e0497a1f-c0c0-4c94-a08c-d08c67b14733" name="outEngine Installed"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="349c8e18-e3fd-4a4b-9653-eb8ebf794137" name="outEngine"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="91e84b47-80a9-46e9-b2d7-0762b0b41dd5" targetElement="#3679b4de-97b5-4743-a659-3c6dc7cffd84"
+                sourceElement="#15627781-88a6-4031-9196-5532eedcf2eb"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="c1b2a882-dcb0-4689-8174-5043d0feb56e" name="Receive Engine">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="50cdd982-5b6b-469e-86f2-ef398749f916" name="inEngine"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="eb25ad36-b200-4a7e-8472-aa7a6ef2662a" name="outEngine"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="1b68453f-3579-4b3d-af85-9a92a2f7ce73" targetElement="#6d615761-1adf-432f-9544-e2233e192475"
+                sourceElement="#c1b2a882-dcb0-4689-8174-5043d0feb56e"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="52d400db-0fb2-47d5-8f54-0d49f6ccf3f1" name="Set Control Parameters">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="3bd9c06a-ea97-4ed5-b1b9-f345f79e9a34" name="inControl Settings"/>
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="8c3d369f-a9f3-49ba-935e-07f04148794c" name="inAdjustments"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="2960b2c8-b7b4-41f8-81db-90ec71df8a3c" name="outECU Parameters"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="560645db-9195-41ba-b91a-d9a5b9bf90c5" targetElement="#8a2cb47f-c18c-4a0b-bc9e-c180d588d223"
+                sourceElement="#52d400db-0fb2-47d5-8f54-0d49f6ccf3f1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="77762377-9d99-4ab0-bf06-a0aaea0c9081" name="Deliver Thrust">
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="f148ec68-9865-4552-94fd-39f4c713c671" targetElement="#54ef0401-235f-4a23-a881-58ea0ca46977"
+                sourceElement="#77762377-9d99-4ab0-bf06-a0aaea0c9081"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="54d66d68-cbf2-4613-ab53-7152d76e08b3" name="Receive Controller Connection">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="2875ff35-1ffa-4fe7-89e3-3d92d75ee35a" name="inController"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="55c19a69-c39c-4ae4-9dae-d70d508a492d" targetElement="#d61517f3-a2ca-4a72-9094-81abc53e20ff"
+                sourceElement="#54d66d68-cbf2-4613-ab53-7152d76e08b3"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="138c9645-3a68-4b37-b46a-969ffb139f05" name="Program Controller">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="4ce73569-912c-43ea-a070-71104fc30da4" name="inFuel Connection Ready"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="a89bd675-a0bc-4b98-b162-b1ee813adcc3" name="outControl Settings"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="3adaa200-d69e-474b-b253-38505a4920c4" targetElement="#f8c0d78e-b830-4584-9df3-59019b162a2d"
+                sourceElement="#138c9645-3a68-4b37-b46a-969ffb139f05"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="884279fc-632f-42aa-88fc-b1b5d30e8c85" name="Connect Starting Gas Supply">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="f4c944e7-f62f-457e-8cc2-41b3b8936d42" name="inController Ready"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="c80e5a60-872e-46d6-8ca4-24f1b54906ba" name="outStarting Gas Connection"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="980e6599-6a07-41e0-bbdf-f4210c883d07" name="outStarting Gas Connected"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="655228d8-d4af-4cec-bdbd-a5b7d6721406" targetElement="#9854fe54-819c-426c-9b1c-8a4086375522"
+                sourceElement="#884279fc-632f-42aa-88fc-b1b5d30e8c85"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="c5d9ca82-3829-438a-9b1c-74d5926fa2cb" name="Receive Stand Connections">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="88dd7f08-458c-4dc5-80bb-b523c148e8d1" name="inControl Connection"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="31789075-6d1e-457d-84f3-61e50bc59257" targetElement="#9d46b855-0f23-4e5f-9056-fb904b273c84"
+                sourceElement="#c5d9ca82-3829-438a-9b1c-74d5926fa2cb"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="3cd717fc-cb5b-4baa-bcfd-1d2cb6f2c2b9" name="Connect Controller to Engine">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="a1f0f353-f41b-446f-8332-f228aa43ff15" name="inEngine Installed"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="eedf9ed8-7584-4991-8635-57f157b75b60" name="outController Connected"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="290aafa5-0ecd-4a67-8d5b-335a17788e58" name="outController"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="b55916fc-8926-482c-9f58-ae5161898323" targetElement="#3a956f5f-8366-420e-89a7-6939141f1d61"
+                sourceElement="#3cd717fc-cb5b-4baa-bcfd-1d2cb6f2c2b9"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="d41bd49b-1028-438d-bb8e-defc7732dddc" name="Provide Data">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="1c69ecb7-d4f4-4059-b777-979e92c8d1a5" name="inData"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="ede16794-2fd6-48ec-8607-cb4d4d18dc3f" name="outECU Data"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="b5c7ca3b-f562-4bd5-a9d3-0f865bd7a28a" targetElement="#ec49062c-a718-4fc1-943b-832fc31a57d3"
+                sourceElement="#d41bd49b-1028-438d-bb8e-defc7732dddc"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="2f3da35d-cfba-4337-8438-b929ba2683ff" name="Measure and Display Data">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="e8aae0f1-bcf9-4692-91c1-b911fd1a2f17" name="inView Stand Data"/>
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="c8008a4e-3b8c-481a-8fcc-ce9e2fc8e640" name="inInteraction 27"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="cf65c872-4a6b-4f15-b8de-f805de82aca8" targetElement="#5b5a9ef4-dd99-42e3-adc1-f603749b0cb5"
+                sourceElement="#2f3da35d-cfba-4337-8438-b929ba2683ff"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="fef7e181-af9e-4f6a-9255-180c503b078f" name="Recieve Controller Connection">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="71fc686a-884e-4be7-b3a8-bce5cc88c37c" name="inControl Connection"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="26fdbb9d-c273-4fef-bc39-4d3f4b2ce21c" name="outControl Connection"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="857ab2a5-f794-483a-af10-2525ea5765b4" targetElement="#c00fee15-002d-4563-9663-95d7f00c3d27"
+                sourceElement="#fef7e181-af9e-4f6a-9255-180c503b078f"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="6a439cc5-e605-4664-89e0-1507a22931ef" name="Recieve Stand">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="4c665533-37f0-4f49-969d-5e37135474d7" name="inEngine"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="b3ce39b9-0002-4c32-b762-2317eb9e2b13" targetElement="#1b04cd01-917e-4c9e-946d-2c619f198856"
+                sourceElement="#6a439cc5-e605-4664-89e0-1507a22931ef"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="37a23665-2942-4f54-a5eb-815b09d7bd84" name="Connect Controls">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="c99d5f4b-7911-49d8-be83-012d33c0db01" name="inController Connected"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="eb2700df-acb0-4cdd-ac40-049c4b47414c" name="outController Ready"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="8f46e65f-5a94-4094-b3c0-7b2d397de228" name="outControl Connection"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="db9b49a4-be52-45dd-b23f-b595e449e89e" targetElement="#7443de25-c325-4e82-ae64-c3bad3b084d4"
+                sourceElement="#37a23665-2942-4f54-a5eb-815b09d7bd84"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="eb7c827f-7b8a-4018-9c05-f668cf54f121" name="Recieve Commands">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="75edff71-c8ed-4824-8481-2ab9b0f0ea10" name="inFuel"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="749aebda-03dc-4aed-b9ca-f98be4375368" name="outCommands"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="6c64584b-dcee-488e-b5cd-af3a2139d076" targetElement="#e58b2346-57c7-409b-aa7b-ad2ebac17648"
+                sourceElement="#eb7c827f-7b8a-4018-9c05-f668cf54f121"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="50fee3aa-5fc9-4c64-a1c3-0f43e8bb4ea5" name="Deliver Commands">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="077684b3-314e-4e3a-8c65-16163f061e7d" name="inCommands"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="8eaa4f29-00fc-4bc8-af26-810a2b860cd1" name="outFuel"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="0280c365-ad87-4682-8838-7df18a9b0320" targetElement="#50c44b99-af32-41cc-9f34-982428fc1b5a"
+                sourceElement="#50fee3aa-5fc9-4c64-a1c3-0f43e8bb4ea5"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="18151f19-a402-4e1f-8fc7-a2596e89bdf6" name="Monitor Performacne">
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="f819d066-f635-43f7-86a6-1580c5751b26" name="outView ECU Data"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="6f2f970b-cb41-46be-873c-13da17582318" name="outView Stand Data"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="e67eb89e-c966-495d-b8a7-190fe6ee311b" targetElement="#646ed147-e600-4785-96a5-0aaea81db244"
+                sourceElement="#18151f19-a402-4e1f-8fc7-a2596e89bdf6"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="d4cb87ab-a6fc-4448-9be1-5d637114f5b0" name="Display and Capture ECU Data">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="8b8ce27d-7d43-4fb0-b34f-a21e65b729c4" name="inECU Data"/>
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="aedcfabf-cf5e-4328-a05c-0556d5ce95d8" name="inView ECU Data"/>
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="54335d5c-f169-4924-8f42-101e8fbea9ac" name="inInteraction 26"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="ddda7670-c3f9-4db9-9c0c-33efff37a5cf" targetElement="#fc0099ee-d696-4f49-b3c3-64e081d7be62"
+                sourceElement="#d4cb87ab-a6fc-4448-9be1-5d637114f5b0"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="2cc11264-8e57-4332-b81e-3fe30739728e" name="Recieve Engine Connection">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="c3a97027-f42d-4553-bb3a-0afc3b45bc17" name="inController"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="34ae82cb-a57f-416d-95d3-e08129687984" name="outController"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="b533eb60-d510-4b0b-a34a-5309fb8f6fbb" targetElement="#84cd97b3-cebd-4af8-b823-f4b20305fbd4"
+                sourceElement="#2cc11264-8e57-4332-b81e-3fe30739728e"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="06f3235f-2b46-418f-951a-e141f3e2f266" name="Compose Evaluation">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="d853b219-e9e3-484e-913f-ebbd290c7cea" name="inEvaluation"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="cf4e6233-e95e-4693-a21d-8b7178234a6a" name="outInteraction 26"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="c03905e0-f5c8-4fc0-88ba-1adf5e81cd9c" name="outInteraction 27"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="e0e06eb2-dcdc-4ecf-b9fd-7e699ce4e64d" targetElement="#ea50fc45-2204-4264-afe6-ed2a8840e1ab"
+                sourceElement="#06f3235f-2b46-418f-951a-e141f3e2f266"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="f0877968-fcdf-45db-bb84-08d9e836e926" name="Perform Engine Test Scenario">
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="720633c4-a9e5-48ec-b78e-b64ef6dc10db" name="outAdjustments"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="f645461c-3b63-4bf4-b98a-fe4243b0ae47" name="outControl Engine Test"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="94fea1ad-37a0-4feb-a0ac-4c398c91975b" targetElement="#00f48529-5508-4628-ac38-9ec86045bd89"
+                sourceElement="#f0877968-fcdf-45db-bb84-08d9e836e926"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="50582738-5992-4473-9519-14c00be164b0" name="Operate Engine">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="fda3ee42-9033-40b8-b40c-984bd9fcee35" name="inControl Engine Test"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="8e79da5c-7870-4595-87c3-e4788b5a74fe" name="outCommands"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="26250ac5-0a47-4c7c-932a-98b21449614e" targetElement="#14e8b2d2-28b8-4538-a570-e4c7e08297fb"
+                sourceElement="#50582738-5992-4473-9519-14c00be164b0"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="f86c1f4b-6d4a-47b6-988c-422bc50cd4e2" name="Receive Fuel Supply">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="aedad2d8-8dd0-46bd-bec6-2ebfdd29ca84" name="inFuel Connection"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="f108193f-b36a-4a25-81a1-8ab9391968a0" name="outRunning Fuel"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="483effe8-2880-4f2b-938d-f6331924d4f3" targetElement="#8281a688-75aa-4c35-94b0-7d768334cb4b"
+                sourceElement="#f86c1f4b-6d4a-47b6-988c-422bc50cd4e2"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="ea7650a1-97dc-4b7b-abed-69e4ac7e5e1d" name="Connect Fuel Supply">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="dabe4e8e-8810-40a1-8c99-3cfbc98cf631" name="inStarting Gas Connected"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="560ba055-9db1-40c7-839f-0f620bce6786" name="outFuel Connection"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="41330314-4357-4470-aaad-ca96bfd11d4f" name="outFuel Connection Ready"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="a7a39233-903b-48a5-bfe5-fb57a139b714" targetElement="#3018278a-0265-4b4f-a706-676efed1bf6b"
+                sourceElement="#ea7650a1-97dc-4b7b-abed-69e4ac7e5e1d"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="e2a92043-a23b-4cc9-b167-183f046896b6" name="Transform Fuel">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="7c7a9f5f-948e-4a78-ad54-cdfba6c954c2" name="inRunning Fuel"/>
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="fb6b529d-1a0c-49b6-a995-8ebb5f0a1d33" name="inStarting Fuel "/>
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="786b8d9f-24d9-473d-a3d1-d6e56a1f0352" name="inAire"/>
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="60a5350a-e778-4f70-af55-460d6a448d40" name="inCommands"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="95707cdc-3f43-4c5c-a545-2ba1350f5a8a" name="outExhaust"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="f497ada8-5241-4b64-97ec-ce26febd7ae7" name="outData"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="b8209ebd-e2d2-4c46-8d06-2c4487ee649b" targetElement="#d5367300-e5be-46dd-b773-4802ff398298"
+                sourceElement="#e2a92043-a23b-4cc9-b167-183f046896b6"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="dfd38f6b-9211-4120-959c-94d6cbd9d5f7" name="Recieve Starting Gas">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="efaa26f7-cfa3-4a49-8233-0cd34855615c" name="inStarting Gas Connection"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="ae9342b4-9599-40e1-9b62-6a370ac029a3" name="outStarting Fuel "/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="a6b95c47-b831-4196-8755-951860ec8338" targetElement="#d51fc5f1-4cca-4d19-b133-1c5c569f22cb"
+                sourceElement="#dfd38f6b-9211-4120-959c-94d6cbd9d5f7"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="9149c749-1269-4f0f-af3f-c91e4602884f" name="View Evaluation">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="8fcc776a-6a5a-4fe5-9e57-4a56e7e19afa" name="inRequest"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="0d424573-6563-471b-b120-46717c9a8990" name="outEvaluation"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="ff822d23-45b8-4ecb-a018-00de29d4375f" targetElement="#cd5a481b-914e-4e16-9fbe-171132632983"
+                sourceElement="#9149c749-1269-4f0f-af3f-c91e4602884f"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="8105e05f-3a23-4f5f-91ea-124fdfbb8e87" name="Absorb Exhaust">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="da6d192e-49d6-404e-9ceb-b021cdbd540a" name="inExhaust"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="bd850be1-7143-42cd-a21f-822ac0a5a1e5" targetElement="#067a5df6-431a-448b-a1e6-8864e90f3131"
+                sourceElement="#8105e05f-3a23-4f5f-91ea-124fdfbb8e87"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="45296859-e6ff-47b7-a1b7-c20c283ad588" name="Provide Air">
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="b09b7647-d7e0-46ca-8bb2-e049911eea7c" name="outAire"/>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="a17b8489-46ec-4b30-87be-bdbe221a275a" targetElement="#dd8c7ef7-2d50-4125-bd9f-acf840ae91dd"
+                sourceElement="#45296859-e6ff-47b7-a1b7-c20c283ad588"/>
+          </ownedFunctions>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="3556616f-8162-4976-90c1-36a9c9e61a53" targetElement="#ccf27688-939c-4fa9-ae13-03cb4f6da319"
               sourceElement="#3cacda0f-39ce-4c08-948b-7cef4ff54ae7"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="0851d523-f166-4861-9658-1a18c0087933" name="Engine" target="#50cdd982-5b6b-469e-86f2-ef398749f916"
+              source="#349c8e18-e3fd-4a4b-9653-eb8ebf794137">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="d2114349-596e-4a3e-a60e-7a9250fc5ba2" targetElement="#ed909a04-ea82-4847-a7a8-06696c8d1afa"
+                sourceElement="#0851d523-f166-4861-9658-1a18c0087933"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="1e7a285f-d89c-4ea8-94c3-2a7962755828" name="ECU Parameters" target="#7a46de87-3155-43aa-8bf2-8adc4a2d44e2"
+              source="#2960b2c8-b7b4-41f8-81db-90ec71df8a3c">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="bd7e237a-1a56-4901-b875-0119a827d0f4" targetElement="#e740ef04-a91a-4892-b1de-0ff4d773145b"
+                sourceElement="#1e7a285f-d89c-4ea8-94c3-2a7962755828"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="9f0f84b4-69a3-45f8-8782-b3e76f1ca1c3" name="Data" target="#1c69ecb7-d4f4-4059-b777-979e92c8d1a5"
+              source="#f497ada8-5241-4b64-97ec-ce26febd7ae7">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="ffd78387-1888-4290-aacc-ac9c11052fbe" targetElement="#f7bcf59c-b82e-4550-9e53-2149e7d34fec"
+                sourceElement="#9f0f84b4-69a3-45f8-8782-b3e76f1ca1c3"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="55e85700-1d9c-4a1c-a65c-044e2d268a03" name="Commands" target="#60a5350a-e778-4f70-af55-460d6a448d40"
+              source="#749aebda-03dc-4aed-b9ca-f98be4375368">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="0118d278-de0e-452e-98f0-2776d2bbe8f1" targetElement="#9f865d4b-4600-4c5d-bcbf-eab42dbd0e7a"
+                sourceElement="#55e85700-1d9c-4a1c-a65c-044e2d268a03"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="0f54c3fd-2c5f-4601-8daf-b69443f850c8" name="View ECU Data" target="#aedcfabf-cf5e-4328-a05c-0556d5ce95d8"
+              source="#f819d066-f635-43f7-86a6-1580c5751b26">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="f317fa66-55b5-4c28-a228-aa53dc08d00f" targetElement="#9795a6d1-89ac-458f-abd2-c89022f99d71"
+                sourceElement="#0f54c3fd-2c5f-4601-8daf-b69443f850c8"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="a1ca8c4f-8246-4398-ba19-a6fd6b312893" name="Controller Connected"
+              target="#c99d5f4b-7911-49d8-be83-012d33c0db01" source="#eedf9ed8-7584-4991-8635-57f157b75b60">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="41796d63-963f-42e4-bf59-f0f03e06040d" targetElement="#53484cdf-1fd4-453b-8376-c584f84aa8fb"
+                sourceElement="#a1ca8c4f-8246-4398-ba19-a6fd6b312893"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="8dbda0cc-d052-4597-b9e6-0f49c5bb8ca9" name="Controller" target="#c3a97027-f42d-4553-bb3a-0afc3b45bc17"
+              source="#290aafa5-0ecd-4a67-8d5b-335a17788e58">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="2bc26886-ebac-4f84-a62b-64f5e3463145" targetElement="#8791cc18-048d-4ed5-9cfa-26b65ec1fc38"
+                sourceElement="#8dbda0cc-d052-4597-b9e6-0f49c5bb8ca9"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="929d0c93-bba2-4396-85b6-916b5b161ff6" name="Engine Installed" target="#a1f0f353-f41b-446f-8332-f228aa43ff15"
+              source="#e0497a1f-c0c0-4c94-a08c-d08c67b14733">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="ed752ced-a426-4c8c-9fcb-c4b944f6c861" targetElement="#301e2701-e25e-462d-adfc-e8ca57627d42"
+                sourceElement="#929d0c93-bba2-4396-85b6-916b5b161ff6"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="43367ec1-5e2b-4fb2-bbcf-21b1ade76a32" name="Controller Ready" target="#f4c944e7-f62f-457e-8cc2-41b3b8936d42"
+              source="#eb2700df-acb0-4cdd-ac40-049c4b47414c">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="8ed57f88-7bf5-4a3e-9beb-34176eb7ee6e" targetElement="#c674e6c5-6efd-471e-9e3b-27f24386ea69"
+                sourceElement="#43367ec1-5e2b-4fb2-bbcf-21b1ade76a32"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="6d958487-42a5-4aeb-8ebb-601431c8ffa5" name="Fuel" target="#75edff71-c8ed-4824-8481-2ab9b0f0ea10"
+              source="#8eaa4f29-00fc-4bc8-af26-810a2b860cd1">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="da0603e5-1c40-4b12-ba48-6565f60b2dc9" targetElement="#e88409ca-145d-4da5-98a1-94b8f6b0a5be"
+                sourceElement="#6d958487-42a5-4aeb-8ebb-601431c8ffa5"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="177e90cc-521b-41bd-b1a9-64d0144fa8a7" name="ECU Data" target="#8b8ce27d-7d43-4fb0-b34f-a21e65b729c4"
+              source="#ede16794-2fd6-48ec-8607-cb4d4d18dc3f">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="b66af170-5cbf-49ce-b6d6-d172e24d8db6" targetElement="#9d2bd998-dbd7-4c8d-8a5a-8c043e8aa58b"
+                sourceElement="#177e90cc-521b-41bd-b1a9-64d0144fa8a7"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="047eb3c7-5672-434c-bd73-f8347a9573d3" name="Control Connection"
+              target="#71fc686a-884e-4be7-b3a8-bce5cc88c37c" source="#8f46e65f-5a94-4094-b3c0-7b2d397de228">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="94e29d9c-e986-41d5-ac4b-7bfcb0b0ba45" targetElement="#66ec6bbc-7daa-419a-b7d2-7574f33c9ee7"
+                sourceElement="#047eb3c7-5672-434c-bd73-f8347a9573d3"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="cf0f5504-668b-42da-8b58-d72a545af56f" name="Starting Gas Connection"
+              target="#efaa26f7-cfa3-4a49-8233-0cd34855615c" source="#c80e5a60-872e-46d6-8ca4-24f1b54906ba">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="2b78016f-6335-48ea-add7-c42025433f64" targetElement="#2ff9660e-a5e6-4163-91c6-11a65dbfaa71"
+                sourceElement="#cf0f5504-668b-42da-8b58-d72a545af56f"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="a9557756-6c90-431b-a5b0-d0599e9c1250" name="View Stand Data" target="#e8aae0f1-bcf9-4692-91c1-b911fd1a2f17"
+              source="#6f2f970b-cb41-46be-873c-13da17582318">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="ccb0be0e-18b2-441a-8cc7-8c9ec13ec9bf" targetElement="#3a67ec99-21ea-40ee-8ffd-16ed667730e5"
+                sourceElement="#a9557756-6c90-431b-a5b0-d0599e9c1250"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="3b7fb55f-095a-41ca-8118-986da2a5641b" name="Fuel Connection" target="#aedad2d8-8dd0-46bd-bec6-2ebfdd29ca84"
+              source="#560ba055-9db1-40c7-839f-0f620bce6786">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="aa06021e-df8e-41cc-8a43-6959a31bb4cb" targetElement="#7efcdff9-0830-412a-8a44-b6079e8b30ad"
+                sourceElement="#3b7fb55f-095a-41ca-8118-986da2a5641b"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="aafdb575-077d-467a-90dd-dec111eed2bd" name="Fuel Connection Ready"
+              target="#4ce73569-912c-43ea-a070-71104fc30da4" source="#41330314-4357-4470-aaad-ca96bfd11d4f">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="ea59e4d4-d0be-48f0-bc42-92e9b03cf16c" targetElement="#162c6e8a-7f40-4e51-985f-e7d5c5f06975"
+                sourceElement="#aafdb575-077d-467a-90dd-dec111eed2bd"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="ad246d38-39f1-4989-8ff3-465a042ad038" name="Control Connection"
+              target="#88dd7f08-458c-4dc5-80bb-b523c148e8d1" source="#26fdbb9d-c273-4fef-bc39-4d3f4b2ce21c">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="4ef1c08b-e5b1-4497-8ac5-b18499f79150" targetElement="#697f164e-999f-43fd-a270-23a1f6b31d33"
+                sourceElement="#ad246d38-39f1-4989-8ff3-465a042ad038"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="c0bd1142-0d40-4e39-839f-c786f2660d62" name="Commands" target="#077684b3-314e-4e3a-8c65-16163f061e7d"
+              source="#8e79da5c-7870-4595-87c3-e4788b5a74fe">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="5c896da4-03c0-4325-9dd2-a82adc3af918" targetElement="#cb9e29c6-8cf5-4087-9e68-cc48a30fa163"
+                sourceElement="#c0bd1142-0d40-4e39-839f-c786f2660d62"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="7c3f9cbc-e006-495a-a996-22d2d0321c68" name="Control Settings" target="#3bd9c06a-ea97-4ed5-b1b9-f345f79e9a34"
+              source="#a89bd675-a0bc-4b98-b162-b1ee813adcc3">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="5540bf0a-4bdf-4971-81c0-58c6af829117" targetElement="#5446c838-ab96-42e0-b117-3477b15ada16"
+                sourceElement="#7c3f9cbc-e006-495a-a996-22d2d0321c68"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="3d92e27e-a1ae-411b-9082-bed97f48f892" name="Engine Request" target="#511d1348-1b10-4f93-8ac6-dfd298ccb9ed"
+              source="#08205a92-856c-4f74-9b6b-45a6c28c388d">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="f5b1c4db-23f0-4c8d-ad25-8993cd44af2f" targetElement="#78fdffdf-8bee-4a0d-8781-5c7c4fc52fc5"
+                sourceElement="#3d92e27e-a1ae-411b-9082-bed97f48f892"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="f9016b72-c91c-4e53-8fcd-cd4eadbe6ecb" name="Engine" target="#4c665533-37f0-4f49-969d-5e37135474d7"
+              source="#eb25ad36-b200-4a7e-8472-aa7a6ef2662a">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="28f74798-dd4b-42c4-b305-ebd750591062" targetElement="#b0b6594d-2aab-4b8d-833a-ef8dbe1b8b37"
+                sourceElement="#f9016b72-c91c-4e53-8fcd-cd4eadbe6ecb"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="4c51aafe-d238-4b6e-8436-0d7d79baf475" name="Adjustments" target="#8c3d369f-a9f3-49ba-935e-07f04148794c"
+              source="#720633c4-a9e5-48ec-b78e-b64ef6dc10db">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="4c0f6e99-6d12-4d35-afae-99aa888faec6" targetElement="#4b7d6106-800e-49fc-9e51-e5e70d5bc9a1"
+                sourceElement="#4c51aafe-d238-4b6e-8436-0d7d79baf475"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="c49eadaf-1b26-4c71-ac5c-4223dcee2003" name="Controller" target="#2875ff35-1ffa-4fe7-89e3-3d92d75ee35a"
+              source="#34ae82cb-a57f-416d-95d3-e08129687984">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="49174a06-b99e-450a-ade2-c76567e389dc" targetElement="#65175e6a-1b03-40f7-8d88-e592a0341c2f"
+                sourceElement="#c49eadaf-1b26-4c71-ac5c-4223dcee2003"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="7c543690-43b3-4285-bf13-4d73b3bf77f0" name="Control Engine Test"
+              target="#fda3ee42-9033-40b8-b40c-984bd9fcee35" source="#f645461c-3b63-4bf4-b98a-fe4243b0ae47">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="a56fed28-0ac8-44c3-8607-fe6d314dc8bd" targetElement="#8fc1009b-4289-4d7d-9449-03ddf5ef7576"
+                sourceElement="#7c543690-43b3-4285-bf13-4d73b3bf77f0"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="16a5d8cd-360a-468c-89d0-94e7a53c0e16" name="Interaction 26" target="#54335d5c-f169-4924-8f42-101e8fbea9ac"
+              source="#cf4e6233-e95e-4693-a21d-8b7178234a6a">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="bc8a18c3-384a-4270-8aeb-c0de44705c69" targetElement="#234df686-4b2d-439e-a26f-10f9595b7990"
+                sourceElement="#16a5d8cd-360a-468c-89d0-94e7a53c0e16"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="62337070-53d2-46b9-87a0-2be05edc2f40" name="Starting Gas Connected"
+              target="#dabe4e8e-8810-40a1-8c99-3cfbc98cf631" source="#980e6599-6a07-41e0-bbdf-f4210c883d07">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="4439e954-7fdc-48f7-b93d-bcfa38eb13f7" targetElement="#c32085a4-858b-4155-945b-4b6df994a86a"
+                sourceElement="#62337070-53d2-46b9-87a0-2be05edc2f40"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="459d3931-168d-4c53-b6ec-4578ce17c711" name="Running Fuel" target="#7c7a9f5f-948e-4a78-ad54-cdfba6c954c2"
+              source="#f108193f-b36a-4a25-81a1-8ab9391968a0">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="900809b6-9062-40ad-b6aa-aa051da89874" targetElement="#2206649a-0c0c-42fd-a445-9a3b1eb29c68"
+                sourceElement="#459d3931-168d-4c53-b6ec-4578ce17c711"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="19afb2fd-0586-4acb-94b8-271cd6e9b89f" name="Starting Fuel " target="#fb6b529d-1a0c-49b6-a995-8ebb5f0a1d33"
+              source="#ae9342b4-9599-40e1-9b62-6a370ac029a3">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="31d3b1a0-5434-47b7-9a05-4a50dc03587a" targetElement="#9342a762-cf0c-4904-8dbf-968a97380779"
+                sourceElement="#19afb2fd-0586-4acb-94b8-271cd6e9b89f"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="d13dfa6b-4f1d-4a0e-9c73-f1db79907ab8" name="Exhaust" target="#da6d192e-49d6-404e-9ceb-b021cdbd540a"
+              source="#95707cdc-3f43-4c5c-a545-2ba1350f5a8a">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="05ccb0b3-a746-491b-9e63-18d58a883635" targetElement="#aed6d570-930f-4ea3-8f8e-cee63f8a2a4c"
+                sourceElement="#d13dfa6b-4f1d-4a0e-9c73-f1db79907ab8"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="0cd14083-d470-4ceb-bbd5-ee9a449b3e96" name="Interaction 27" target="#c8008a4e-3b8c-481a-8fcc-ce9e2fc8e640"
+              source="#c03905e0-f5c8-4fc0-88ba-1adf5e81cd9c">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="ab13622a-f9b5-4378-bea0-619a32114a90" targetElement="#fbaf917d-5f1f-4659-82cb-d8001dee5e06"
+                sourceElement="#0cd14083-d470-4ceb-bbd5-ee9a449b3e96"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="7c00125f-9339-45a5-91f6-5c55a90e12df" name="Evaluation" target="#d853b219-e9e3-484e-913f-ebbd290c7cea"
+              source="#0d424573-6563-471b-b120-46717c9a8990">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="9ad2f49f-15ad-4a5a-94bb-b8895dcd00dd" targetElement="#86f47a63-a9fa-4052-91c1-77e9ad59f5b5"
+                sourceElement="#7c00125f-9339-45a5-91f6-5c55a90e12df"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="f36dbe76-78be-490a-a989-2a8a5524ac61" name="Aire" target="#786b8d9f-24d9-473d-a3d1-d6e56a1f0352"
+              source="#b09b7647-d7e0-46ca-8bb2-e049911eea7c">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="27142690-20e2-45ee-88cd-6e38d39c64cb" targetElement="#6ad75ae7-dcbe-45db-ade2-6cb34335b8a8"
+                sourceElement="#f36dbe76-78be-490a-a989-2a8a5524ac61"/>
+          </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="7c7d0b4a-bd5b-49f9-bbbf-f3df13c5b06c" name="Request" target="#8fcc776a-6a5a-4fe5-9e57-4a56e7e19afa"
+              source="#acad4dd6-bf79-4cf2-8286-9e6516d1fe4d">
+            <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
+                id="936e9a00-2b44-43f7-926f-0ea06bd07402" targetElement="#f5c530ba-2b84-4e2e-8dff-b828af9009e4"
+                sourceElement="#7c7d0b4a-bd5b-49f9-bbbf-f3df13c5b06c"/>
+          </ownedFunctionalExchanges>
         </ownedSystemFunctions>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg"
-          id="2d27d158-b008-496c-b5be-95ad6e8c7472" name="Capabilities"/>
+          id="2d27d158-b008-496c-b5be-95ad6e8c7472" name="Capabilities">
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="4533e025-3c81-4342-9cab-3e77118b0e7a" name="Connect the Engine">
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="28aa960e-b440-4b0a-afae-f0df7dc0e6d8" targetElement="#f660aade-5430-4201-86b2-d19397627831"
+              sourceElement="#d3ce4923-1717-41ac-8387-8726a38b1d13"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="16cf113e-00b5-4254-8af1-5249a59eb590" targetElement="#7182e156-998a-469e-9170-8f88d86e5ca8"
+              sourceElement="#3a789a18-31db-4c80-977d-cf03b8b30c2a"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="845cc40a-2646-4fd0-97a5-bfb48ca09de0" targetElement="#4b42eb92-ade1-4049-9140-8b6c73d6716e"
+              sourceElement="#3a789a18-31db-4c80-977d-cf03b8b30c2a"/>
+          <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
+              id="98d7e11a-da66-4cfe-b324-e02b33ef1c80" targetElement="#7aea0d3a-48e3-4cb3-a1ad-a2b2c41f709c"
+              sourceElement="#4533e025-3c81-4342-9cab-3e77118b0e7a"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="d3ce4923-1717-41ac-8387-8726a38b1d13" involved="#cc891e0a-f7ad-45f4-a73b-ea152f6844c2"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="3a789a18-31db-4c80-977d-cf03b8b30c2a" involved="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+        </ownedCapabilities>
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="e09b85b2-fbee-4fc1-84de-b9a85f4cfa6f" name="Provide Fuel">
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="f0aa679c-fd04-411b-9040-915a0e4d57bd" targetElement="#fca8af57-f14d-488c-88a4-4517e54f5545"
+              sourceElement="#01365d70-04b5-4094-b0ce-a8bcb5086c41"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="e2215421-2b93-4f12-bc41-2931a8bb041f" targetElement="#61195ff4-d2c7-47cf-a3ae-caf8bec51a28"
+              sourceElement="#ee416a12-c45e-48ae-8e5c-9fd84d02d8f6"/>
+          <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
+              id="c0b02b04-c2f0-450d-ae12-fc7bc25534ed" targetElement="#82054c87-e4f3-487e-961c-db8ca3a1e851"
+              sourceElement="#e09b85b2-fbee-4fc1-84de-b9a85f4cfa6f"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="01365d70-04b5-4094-b0ce-a8bcb5086c41" involved="#cc891e0a-f7ad-45f4-a73b-ea152f6844c2"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="ee416a12-c45e-48ae-8e5c-9fd84d02d8f6" involved="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+        </ownedCapabilities>
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="8f125153-54c2-44aa-8664-96a58082e3ce" name="Measure Thrust">
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="ed8f37d7-7b9b-420e-8222-03c962f1ea9f" targetElement="#5179abe3-f430-4a9e-844d-5e7752cd93a7"
+              sourceElement="#2b8a620b-ff5c-493e-9c58-36000dbe92d0"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="13609db7-bf0f-433a-9fee-0bc7d40020dc" targetElement="#fb1c6dfb-d7b5-4895-9507-f4e93043a2d7"
+              sourceElement="#91042251-c874-4220-bbdd-755b75f791df"/>
+          <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
+              id="e40c1c31-7c73-4728-823c-c6b359276414" targetElement="#0fb5a451-2f7d-4227-9874-a925d3912854"
+              sourceElement="#8f125153-54c2-44aa-8664-96a58082e3ce"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="2b8a620b-ff5c-493e-9c58-36000dbe92d0" involved="#cc891e0a-f7ad-45f4-a73b-ea152f6844c2"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="91042251-c874-4220-bbdd-755b75f791df" involved="#09e671bf-71b9-4682-b531-bf7ee12c3b1e"/>
+        </ownedCapabilities>
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="f31ae86e-c92d-4e45-aad1-4d04f7c7b8f6" name="Measure Weight">
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="fc235826-598c-48db-a0bf-efbf1dda5c8b" targetElement="#b0045b5f-8771-4b4d-a6ef-00f0114dde99"
+              sourceElement="#361c2c4b-f5b1-4cfe-af3f-948b0123cec2"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="188d102f-c521-47ad-92d2-bbfd0b863b7a" targetElement="#82e35a48-772b-4e08-a0a9-892f879771eb"
+              sourceElement="#9067c809-42fc-42c0-8d4f-7b9994e3f37a"/>
+          <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
+              id="8f35035d-e301-44aa-b308-8cefe1bbae51" targetElement="#2d8109b8-85f9-42e3-bf9b-b89e1d2df3ee"
+              sourceElement="#f31ae86e-c92d-4e45-aad1-4d04f7c7b8f6"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="361c2c4b-f5b1-4cfe-af3f-948b0123cec2" involved="#cc891e0a-f7ad-45f4-a73b-ea152f6844c2"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="9067c809-42fc-42c0-8d4f-7b9994e3f37a" involved="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+        </ownedCapabilities>
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="1f9c02de-d7f1-471e-a7e8-01d8e22d927f" name="Adjust Control Parameters">
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="df16e7b3-3a48-4f6d-b071-e555b7cff6b0" targetElement="#46b2a97d-290f-4bad-86dc-e73dfbf251bb"
+              sourceElement="#95f17090-7f22-4061-a264-da71fc6d7bcd"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="d76a0648-9ae9-4949-b358-95dba18cccb6" targetElement="#03ea4868-e15d-4837-be5a-3df272aa2602"
+              sourceElement="#53a8e4f9-6df2-4a58-8fa5-48010281baf4"/>
+          <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
+              id="56c4cd99-d651-4a13-9c18-551ac5ee5fae" targetElement="#3da7ed6c-ffa3-4156-91a2-aafccace0c62"
+              sourceElement="#1f9c02de-d7f1-471e-a7e8-01d8e22d927f"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="95f17090-7f22-4061-a264-da71fc6d7bcd" involved="#cc891e0a-f7ad-45f4-a73b-ea152f6844c2"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="53a8e4f9-6df2-4a58-8fa5-48010281baf4" involved="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+        </ownedCapabilities>
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="da23cd8b-64d4-4bca-869e-3e8eeda41a71" name="Capture Engine Data">
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="2220043c-5f6e-43a7-99f3-f8b5fbaa8883" targetElement="#921a4166-ba56-41d5-ba49-f9b5f5e98382"
+              sourceElement="#c8e4276e-d8f9-4708-89f6-5b6ef2187a07"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="6056ed8f-4154-455a-ba7b-f39709a4271f" targetElement="#16d176e2-355c-4ba2-8daa-5e6c710e1a0f"
+              sourceElement="#7377b9ce-8bbd-47f1-9f03-d9ae1d102732"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="a07068f4-c457-410a-87c1-04644ae481e5" targetElement="#dbf6bba5-1d02-4887-a17a-79a181b6f65f"
+              sourceElement="#7377b9ce-8bbd-47f1-9f03-d9ae1d102732"/>
+          <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
+              id="c4babea4-9a09-4163-ae71-6511fa2c8464" targetElement="#53b6f6ee-b653-4266-9194-928cf1f10929"
+              sourceElement="#da23cd8b-64d4-4bca-869e-3e8eeda41a71"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="c8e4276e-d8f9-4708-89f6-5b6ef2187a07" involved="#cc891e0a-f7ad-45f4-a73b-ea152f6844c2"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="7377b9ce-8bbd-47f1-9f03-d9ae1d102732" involved="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+        </ownedCapabilities>
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="04a77521-281b-4372-a372-bde7eb654bab" name="Report On Engine Performance">
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="60956965-84d4-4a92-9124-d04e26b18eab" targetElement="#69073c27-8474-456b-add4-93ef52c315c9"
+              sourceElement="#bd6bd26f-96cc-4598-8f5b-af5f2d00ec82"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="da6a1b5e-49fd-4b5b-a77a-df47b0204c9a" targetElement="#3a148548-717f-49ec-bc48-9f84232dcbd1"
+              sourceElement="#67609eeb-67f6-433d-b59d-5d5787e5e54e"/>
+          <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
+              id="c600feb1-18a7-4a97-acee-2da2b9244237" targetElement="#f7f95eb6-d47d-47e1-ad32-f9d8b1083b4b"
+              sourceElement="#04a77521-281b-4372-a372-bde7eb654bab"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="bd6bd26f-96cc-4598-8f5b-af5f2d00ec82" involved="#2cba7d49-b11d-4491-a69c-8edf3bb59f3d"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="67609eeb-67f6-433d-b59d-5d5787e5e54e" involved="#cc891e0a-f7ad-45f4-a73b-ea152f6844c2"/>
+        </ownedCapabilities>
+      </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="099fe142-ab1a-4f2c-9061-2c1d9b9f36ec" name="Interfaces"/>
       <ownedDataPkg xsi:type="org.polarsys.capella.core.data.information:DataPkg"
@@ -676,15 +1686,236 @@
       </ownedDataPkg>
       <ownedSystemComponentPkg xsi:type="org.polarsys.capella.core.data.ctx:SystemComponentPkg"
           id="6677afd7-55c0-4dda-9402-68f3c1e5e624" name="Structure">
+        <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+            id="a21f3711-5990-4ab5-abb6-9ad9927be39b" targetElement="#2a074324-9378-452d-a8bb-34cda18d9c75"
+            sourceElement="#ff6fdf68-b1b3-48a0-835c-dd5a3a15de95"/>
+        <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+            id="63cd88d1-f454-4fc6-8a16-2049a4994e16" targetElement="#0f5ae031-9dae-4f67-8a9b-6853ed8baa94"
+            sourceElement="#b0e6eb7b-c4c1-4b28-a42c-12ebff0b222a"/>
+        <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+            id="9257255d-ed2a-4572-80d8-4b2d95d2d4bf" targetElement="#4dc163ea-4f58-4ec1-b208-4a647358d3c4"
+            sourceElement="#353c22cc-e5e2-471f-ac36-fbd9ad860c6d"/>
+        <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+            id="e625b91b-1287-4047-b65b-f72816e00aa1" targetElement="#5d7e93bb-0ed5-4720-a8e7-7f36c650af58"
+            sourceElement="#3f831320-0917-44eb-b121-a42c86fd5d13"/>
+        <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+            id="e2de51b8-0627-4fc8-b4c8-787605a0ccbc" targetElement="#ab51d299-a9ba-49ed-a1d2-29aa7228b022"
+            sourceElement="#3f831320-0917-44eb-b121-a42c86fd5d13"/>
+        <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+            id="1949fb06-fffb-4bf3-aec4-c727018403f9" targetElement="#2884b409-17dc-45e0-86e0-24437d5ab9e8"
+            sourceElement="#3f831320-0917-44eb-b121-a42c86fd5d13"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="3f831320-0917-44eb-b121-a42c86fd5d13"
             name="System" abstractType="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="b0e6eb7b-c4c1-4b28-a42c-12ebff0b222a"
+            name="Stand Operator" abstractType="#cc891e0a-f7ad-45f4-a73b-ea152f6844c2"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="353c22cc-e5e2-471f-ac36-fbd9ad860c6d"
+            name="Engine Performance Evaluator" abstractType="#2cba7d49-b11d-4491-a69c-8edf3bb59f3d"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="ff6fdf68-b1b3-48a0-835c-dd5a3a15de95"
+            name="Environment" abstractType="#09e671bf-71b9-4682-b531-bf7ee12c3b1e"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="9ebe9e7f-65d0-4495-92e1-622c2a286e99" name="System">
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="400f874b-737f-4afa-aa1a-d19f242450a1" targetElement="#7c370fd9-bcc9-4b00-8dc2-764857731c39"
+              sourceElement="#f1491dc5-82c7-43fb-af27-675769f50fbb"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="4a8653bd-4656-454c-a34a-76056ca1b82d" targetElement="#6130437f-2811-4ee3-aac1-9a16168efd1d"
+              sourceElement="#6028f075-ff60-4aac-b62f-721fb503679f"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="cfc966de-c97b-47b9-9619-07c1cf03f0c2" targetElement="#a739d492-9467-4bee-9f52-e5d8ba85bffb"
+              sourceElement="#837ec799-dde6-42b9-a9a3-48b33f7d9e73"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="54bb1210-1807-4cbf-92eb-680845f41b28" targetElement="#dca8743c-3af0-4cb5-91d8-b2e23d85a4fb"
+              sourceElement="#3700b5ce-58d4-4e99-a3ac-6bd5743b0516"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="ffb6c26a-1623-430d-b6f8-35b91cbe739f" targetElement="#fa2ca5b2-be01-47f7-82fa-cd34fc0fb834"
+              sourceElement="#0555efa2-c68f-4d00-acdf-77ee7c561f24"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="1bf428c1-e937-473d-b410-75d66caac310" targetElement="#96f9c4fa-8d5b-4da2-83d3-35aee968be1c"
+              sourceElement="#4b0eeee4-3fb2-4c38-8c84-a8f3c2a51d15"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="ac38b8fe-c990-4b9a-aa7b-26c18ed6bfea" targetElement="#cfa73ae8-7935-43f4-a1af-d725396e4a4e"
+              sourceElement="#808a55e8-07f2-49a7-a624-0354c5681833"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="7231a6bf-a790-47d4-a9f6-74fe8b2150f6" targetElement="#4fafb6fa-4b01-4f70-a909-20fb4fc5d070"
+              sourceElement="#2f894c46-3484-4113-88f4-e3d87f88e150"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="c3095275-2d16-4b72-aae9-3212bf87bd90" targetElement="#c477b2c6-3c6b-4bda-8e53-be83afb929b9"
+              sourceElement="#1711a2a3-ce64-4a7d-aa5f-a3e3673ac167"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="dee7e350-795c-446d-ac70-012307278643" targetElement="#8ae211a9-b4bf-419f-a2a0-4f3dfdf39ca8"
+              sourceElement="#76719888-048a-48e0-bc36-f13c8bcfc92d"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="92edfdba-bf54-44df-8513-83d2d66a0596" targetElement="#fdfd5a3a-f0b9-4493-8793-ed5f07c50fa3"
+              sourceElement="#ac55d6a2-fad6-44fb-a0f0-8847645531da"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="cdb12401-cc75-4c96-8d16-09c40b659c2f" targetElement="#9b689ab1-a20f-4a76-a87f-d33a9c7b51c6"
+              sourceElement="#76c5bf8f-1466-42a4-aee0-4a44945c0b4f"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="4b0eeee4-3fb2-4c38-8c84-a8f3c2a51d15" targetElement="#c5d9ca82-3829-438a-9b1c-74d5926fa2cb"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="2f894c46-3484-4113-88f4-e3d87f88e150" targetElement="#2cc11264-8e57-4332-b81e-3fe30739728e"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="76719888-048a-48e0-bc36-f13c8bcfc92d" targetElement="#4b6c43c1-f0d6-4f00-a47e-38504218c36c"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="ac55d6a2-fad6-44fb-a0f0-8847645531da" targetElement="#d41bd49b-1028-438d-bb8e-defc7732dddc"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="76c5bf8f-1466-42a4-aee0-4a44945c0b4f" targetElement="#eb7c827f-7b8a-4018-9c05-f668cf54f121"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="6028f075-ff60-4aac-b62f-721fb503679f" targetElement="#52d400db-0fb2-47d5-8f54-0d49f6ccf3f1"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="3700b5ce-58d4-4e99-a3ac-6bd5743b0516" targetElement="#fef7e181-af9e-4f6a-9255-180c503b078f"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="1711a2a3-ce64-4a7d-aa5f-a3e3673ac167" targetElement="#2f3da35d-cfba-4337-8438-b929ba2683ff"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="808a55e8-07f2-49a7-a624-0354c5681833" targetElement="#d4cb87ab-a6fc-4448-9be1-5d637114f5b0"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="0555efa2-c68f-4d00-acdf-77ee7c561f24" targetElement="#50582738-5992-4473-9519-14c00be164b0"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="837ec799-dde6-42b9-a9a3-48b33f7d9e73" targetElement="#50fee3aa-5fc9-4c64-a1c3-0f43e8bb4ea5"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="f1491dc5-82c7-43fb-af27-675769f50fbb" targetElement="#c1b2a882-dcb0-4689-8174-5043d0feb56e"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="71aa5693-fd69-4d4c-b0e8-b1eee01ade26" targetElement="#77762377-9d99-4ab0-bf06-a0aaea0c9081"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="05198dac-1c52-4abb-927d-2945516bc486" targetElement="#54d66d68-cbf2-4613-ab53-7152d76e08b3"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="55bcf028-4d24-46e5-a909-e7619625a6ba" targetElement="#6a439cc5-e605-4664-89e0-1507a22931ef"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="de62bb09-7aec-454d-83d8-d800949061c1" targetElement="#f86c1f4b-6d4a-47b6-988c-422bc50cd4e2"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="1b470225-377a-4c17-896c-6d614b2fd399" targetElement="#e2a92043-a23b-4cc9-b167-183f046896b6"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="04ab0f00-1cba-43ed-a96a-61e1c333eb85" targetElement="#dfd38f6b-9211-4120-959c-94d6cbd9d5f7"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
           <ownedStateMachines xsi:type="org.polarsys.capella.core.data.capellacommon:StateMachine"
               id="f04d9124-8afe-49f8-b335-9783aa33f472" name="System State Machine">
             <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                 id="c09f684f-ec58-4204-bc9f-af4689147de9" name="Default Region"/>
           </ownedStateMachines>
+          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
+              id="5b2a1ce5-6bb7-48c9-8fcf-d6b2b93b442f" targetElement="#7822cd1b-dd75-474a-9ff3-75f33fd26d3f"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
+              id="3510f08e-d832-4039-b8fa-93c5e0d76bb3" targetElement="#eafe121d-81ce-4f8e-a752-947f2c487197"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
+              id="86eacda2-b4b9-47a0-a875-53a4057cb63d" targetElement="#63f6fbec-58c7-43d6-bf37-1d9029880862"
+              sourceElement="#9ebe9e7f-65d0-4495-92e1-622c2a286e99"/>
+        </ownedSystemComponents>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="cc891e0a-f7ad-45f4-a73b-ea152f6844c2" name="Stand Operator" actor="true"
+            human="true">
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="b43d7eb8-b729-4010-a47a-7eea040ac19e" targetElement="#a79d13be-ac1f-46a1-8f98-5c2515653cc6"
+              sourceElement="#ce32bc96-a660-4d6e-9815-47a04b9696e4"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="be25d50b-7579-4b77-93da-df9ca098b728" targetElement="#7cf2d5b8-14e7-47a9-bb74-c5f1369f075d"
+              sourceElement="#1d9f9676-95c1-470a-885a-9f5ab6e0180e"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="09dcec36-8972-47ee-bc65-2068f1d2d505" targetElement="#98bb6889-f7a6-4123-90e3-15136a4b4b2e"
+              sourceElement="#049626b1-939f-43b9-94e4-e115eb9f52da"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="f1bf7230-9f78-43c8-9b4b-7f2cafcb4d99" targetElement="#61c8a0be-84e1-4e77-91ca-8f277626d85c"
+              sourceElement="#44bbf7bd-ab85-49d4-9135-b70f49c0b9e5"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="adc7ad0f-2f17-4524-9f42-f7d4261d62e4" targetElement="#5add4bc5-3844-40e5-bfda-615a225fecd0"
+              sourceElement="#708dbf3a-e7fe-4a55-8b34-3a458a4aa604"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="5faa134c-aa69-4ea2-b41a-1748cab01b78" targetElement="#ac6cb42f-f50a-45bd-a61c-c4f9b30af521"
+              sourceElement="#76fddde4-b827-4640-a471-b0778d753010"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="05526a28-be17-49df-a059-23946003c923" targetElement="#bb5a2c6d-042c-49fd-bbb7-f276dab549d3"
+              sourceElement="#5d74da6f-95e9-4280-a9d8-37317f36f8e3"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="ec0c4b64-74b5-4e6f-abfe-8467d4779d27" targetElement="#f3b43a81-ef62-4747-8f23-9b4c5badbd77"
+              sourceElement="#1778d3c6-83e0-4d77-9a57-d40329557f18"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="b76bd543-484c-4bdc-9e52-594ba6872b42" targetElement="#aaf7a707-e57f-4a53-a8ca-415a2d2bf155"
+              sourceElement="#32231d4b-e61c-4d15-a824-224acf37cf7b"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="ce32bc96-a660-4d6e-9815-47a04b9696e4" targetElement="#15627781-88a6-4031-9196-5532eedcf2eb"
+              sourceElement="#cc891e0a-f7ad-45f4-a73b-ea152f6844c2"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="1d9f9676-95c1-470a-885a-9f5ab6e0180e" targetElement="#37a23665-2942-4f54-a5eb-815b09d7bd84"
+              sourceElement="#cc891e0a-f7ad-45f4-a73b-ea152f6844c2"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="049626b1-939f-43b9-94e4-e115eb9f52da" targetElement="#3cd717fc-cb5b-4baa-bcfd-1d2cb6f2c2b9"
+              sourceElement="#cc891e0a-f7ad-45f4-a73b-ea152f6844c2"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="44bbf7bd-ab85-49d4-9135-b70f49c0b9e5" targetElement="#138c9645-3a68-4b37-b46a-969ffb139f05"
+              sourceElement="#cc891e0a-f7ad-45f4-a73b-ea152f6844c2"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="708dbf3a-e7fe-4a55-8b34-3a458a4aa604" targetElement="#ea7650a1-97dc-4b7b-abed-69e4ac7e5e1d"
+              sourceElement="#cc891e0a-f7ad-45f4-a73b-ea152f6844c2"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="76fddde4-b827-4640-a471-b0778d753010" targetElement="#f0877968-fcdf-45db-bb84-08d9e836e926"
+              sourceElement="#cc891e0a-f7ad-45f4-a73b-ea152f6844c2"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="5d74da6f-95e9-4280-a9d8-37317f36f8e3" targetElement="#884279fc-632f-42aa-88fc-b1b5d30e8c85"
+              sourceElement="#cc891e0a-f7ad-45f4-a73b-ea152f6844c2"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="1778d3c6-83e0-4d77-9a57-d40329557f18" targetElement="#18151f19-a402-4e1f-8fc7-a2596e89bdf6"
+              sourceElement="#cc891e0a-f7ad-45f4-a73b-ea152f6844c2"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="32231d4b-e61c-4d15-a824-224acf37cf7b" targetElement="#06f3235f-2b46-418f-951a-e141f3e2f266"
+              sourceElement="#cc891e0a-f7ad-45f4-a73b-ea152f6844c2"/>
+          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
+              id="3fd6e79b-63c0-4b9b-ace8-97ec8bf04796" targetElement="#aaeabf59-5c9b-4eba-8f7c-f6129b7eff6a"
+              sourceElement="#cc891e0a-f7ad-45f4-a73b-ea152f6844c2"/>
+        </ownedSystemComponents>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="2cba7d49-b11d-4491-a69c-8edf3bb59f3d" name="Engine Performance Evaluator"
+            actor="true" human="true">
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="775a5036-5bd8-45da-b45c-55c6730c89e3" targetElement="#678514b2-b330-4225-84fc-c617c5b6b039"
+              sourceElement="#3b27a3ea-710d-4191-a64a-705700fa7d84"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="156c6520-5ca5-4bdd-b953-fb067e1dc03f" targetElement="#0389e992-d054-4f9c-ae7e-74a0989cc26c"
+              sourceElement="#87a24976-bc92-4f60-bf0d-d0d0010d5f5b"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="3b27a3ea-710d-4191-a64a-705700fa7d84" targetElement="#8576a56b-eb65-4933-8806-13a3cbd830a7"
+              sourceElement="#2cba7d49-b11d-4491-a69c-8edf3bb59f3d"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="87a24976-bc92-4f60-bf0d-d0d0010d5f5b" targetElement="#9149c749-1269-4f0f-af3f-c91e4602884f"
+              sourceElement="#2cba7d49-b11d-4491-a69c-8edf3bb59f3d"/>
+          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
+              id="6dd8898e-006d-4b1f-ad3c-ca49dd6f9d3e" targetElement="#2ccbb0c5-686d-4300-85e1-cd886e437bcc"
+              sourceElement="#2cba7d49-b11d-4491-a69c-8edf3bb59f3d"/>
+        </ownedSystemComponents>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="09e671bf-71b9-4682-b531-bf7ee12c3b1e" name="Environment" actor="true">
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="e6dcc251-d110-4fb4-8aa6-6f5f1e4f13a0" targetElement="#36c27c7e-024a-422f-b1b0-ea9765d9dbdd"
+              sourceElement="#1f814bc3-f292-4f7a-a58b-de5f314fe66b"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="7eb71627-806f-4e3c-a4ec-0fe4bd669dfb" targetElement="#38bd7858-ad14-4922-95bf-918238e29dde"
+              sourceElement="#4bc41d7d-937b-476a-bc7a-1af86e6769ae"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="1f814bc3-f292-4f7a-a58b-de5f314fe66b" targetElement="#8105e05f-3a23-4f5f-91ea-124fdfbb8e87"
+              sourceElement="#09e671bf-71b9-4682-b531-bf7ee12c3b1e"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="4bc41d7d-937b-476a-bc7a-1af86e6769ae" targetElement="#45296859-e6ff-47b7-a1b7-c20c283ad588"
+              sourceElement="#09e671bf-71b9-4682-b531-bf7ee12c3b1e"/>
+          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
+              id="c9402e53-3a7c-4eb8-ba3c-1f1beb2c90ab" targetElement="#f817abe1-5d65-4715-819c-ea18c9ec2a4f"
+              sourceElement="#09e671bf-71b9-4682-b531-bf7ee12c3b1e"/>
         </ownedSystemComponents>
       </ownedSystemComponentPkg>
       <ownedMissionPkg xsi:type="org.polarsys.capella.core.data.ctx:MissionPkg" id="01fd7d04-5e6e-4d12-ba47-f120dd6b9d4f"
