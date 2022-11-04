@@ -5338,6 +5338,14 @@
       </ownedDataPkg>
       <ownedPhysicalComponentPkg xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
           id="fb9752d5-2c03-4bd5-9f57-3ca558b9dfa7" name="Structure" appliedPropertyValues="#c96eb8ce-98f0-421a-ae80-c5e6cd31e7b4">
+        <ownedConstraints xsi:type="org.polarsys.capella.core.data.capellacore:Constraint"
+            id="16bc7de9-7e49-4aae-beb1-2151954d9c6f" name="">
+          <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
+              id="651bc0cf-f0ef-491d-921e-df51635f3df2">
+            <bodies></bodies>
+            <languages>capella:linkedText</languages>
+          </ownedSpecification>
+        </ownedConstraints>
         <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
             id="80382e09-f590-42e9-bcbe-bd346020136b" targetElement="#35aae455-9982-4fc7-a24d-0175dac78f13"
             sourceElement="#a83810b6-cabc-40ba-b806-7111c4176a2a"/>
@@ -5460,22 +5468,6 @@
             <ownedExtensions xsi:type="smw:TcItemRevision" id="4c9dd185-15c9-49fb-8ee2-90b638958a78"
                 tcuid="USOAAQGM5BWnuC" stableTcId="UWAAAQGM5BWnuC"/>
           </ownedFeatures>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="c79fb7c3-8b2b-45df-b68d-2b06f96c9ee3"
-              name="Inlet" abstractType="#3ba593ac-b4b8-49b7-9951-7c8f5790e47f">
-            <ownedExtensions xsi:type="smw:TcItemRevision" id="aca572fb-d6e5-4887-af69-3657e58a7b17"
-                tcuid="EmNAAQGM5BWnuC" stableTcId="EmPAAQGM5BWnuC"/>
-            <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
-                id="627351aa-d85b-4989-b9b2-049aa5fe62e6" deployedElement="#3bca36ad-38c1-400a-bb80-26e8ab1d4a84"
-                location="#c79fb7c3-8b2b-45df-b68d-2b06f96c9ee3"/>
-          </ownedFeatures>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="0bab46a8-c1c0-4cfa-b680-0e74ee5d5897"
-              name="JetCat Starter" abstractType="#c390e931-0752-4298-b5de-0318a4333183">
-            <ownedExtensions xsi:type="smw:TcItemRevision" id="7dfd98ec-81ff-4960-afe5-312e94edbc3f"
-                tcuid="EmFAAQGM5BWnuC" stableTcId="EmHAAQGM5BWnuC"/>
-            <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
-                id="19f316dc-ef06-4125-9bbf-55aef5ca0d8d" deployedElement="#77b4a072-b0e6-44d6-b789-46756c692a7d"
-                location="#0bab46a8-c1c0-4cfa-b680-0e74ee5d5897"/>
-          </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="78f31ac8-d529-4373-a85b-2ee2dde78e60"
               name="Starter Fuel" abstractType="#28c654e6-8b78-4a11-81a9-d1e261a3d245">
             <ownedExtensions xsi:type="smw:TcItemRevision" id="6b02ed78-0bcc-4c5b-bbb1-985217cdc515"
@@ -5496,30 +5488,20 @@
             <ownedExtensions xsi:type="smw:TcItemRevision" id="fce144e9-ceaf-41ab-b3cb-3c529fc43674"
                 tcuid="EuFAAQGM5BWnuC" stableTcId="EuHAAQGM5BWnuC"/>
           </ownedFeatures>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="98958229-67e1-4843-9e56-c0087803d491"
-              name="Exhaust Assy" abstractType="#ba7337d0-98d0-4290-a0c9-62f633b24a56">
-            <ownedExtensions xsi:type="smw:TcItemRevision" id="e26a07dc-4033-4e3a-9a89-e136aab9eaa9"
-                tcuid="HdGAAQGM5BWnuC" stableTcId="HdIAAQGM5BWnuC"/>
-            <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
-                id="1c95636e-cd85-4115-9144-f719102c5305" deployedElement="#ec1ef805-7dec-4a96-bd1d-9b3d24f3d091"
-                location="#98958229-67e1-4843-9e56-c0087803d491"/>
-          </ownedFeatures>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="590ed453-544a-4e0e-bb8f-76faea6ca1d5"
-              name="Combustor Assembly" abstractType="#15dea1d8-6c95-4bb0-8c98-d4fed24e067c">
-            <ownedExtensions xsi:type="smw:TcItemRevision" id="35a4146a-0dec-4b6f-922e-1af68c57d9d0"
-                tcuid="HdNAAQGM5BWnuC" stableTcId="HdPAAQGM5BWnuC"/>
-            <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
-                id="5168f4e4-bc7b-492a-989f-f35d395f1c35" deployedElement="#41564243-21a0-4334-bb4e-18cca69394c5"
-                location="#590ed453-544a-4e0e-bb8f-76faea6ca1d5"/>
-          </ownedFeatures>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f8905bcc-ee64-4891-880c-40309d286c45"
-              name="Rotor" abstractType="#4ce48510-61a6-4c06-9141-4cc64da8d77b">
-            <ownedExtensions xsi:type="smw:TcItemRevision" id="ccc9479b-f439-46bb-99e7-493bca3581da"
-                tcuid="HZPAAQGM5BWnuC" stableTcId="HdBAAQGM5BWnuC"/>
-            <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
-                id="8be960a8-a172-484f-a91b-3e4e3518263a" deployedElement="#8337a33a-fe88-487b-b98f-0c4e4faf7d5c"
-                location="#f8905bcc-ee64-4891-880c-40309d286c45"/>
-          </ownedFeatures>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="0ebd082a-a000-4b11-abd5-557e9fbe3da6"
+              name="Inlet Assembly" abstractType="#f9ddf179-49c1-4e30-9a04-a710dfc4d055"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="8cffdf71-0df3-4639-b327-98ff657991f2"
+              name="Battery" abstractType="#35ba97ca-2087-4623-968a-a3055e5cff57"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="18353dc7-22e9-4d0e-a219-dd8e586df719"
+              name="Fuel Valve" abstractType="#6d4be481-aa46-4e0e-b3e7-4392cd565946"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="65828af3-0d1c-4203-8ea9-2ad436652601"
+              name="Gas Valve" abstractType="#14b70bb4-bf18-47b5-a5cc-46e8a00c95d6"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="95ca95a2-7d65-4710-8026-8bc28b8c4c9b"
+              name="Gas Filter" abstractType="#4abfc70d-7a41-4db1-bbad-dda4635f4d34"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="ae6ba298-1432-4cbb-9b7d-79eacf1a9ab9"
+              name="Fuel Filter" abstractType="#5503a98d-482d-46ec-afc2-03a04fc30d2f"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="12aa73a8-4b35-475b-b3a4-7c2ef80046c1"
+              name="Fuel Pump" abstractType="#7720b9d0-6b7b-4789-bf7e-2166f7504b67"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="35f52dfa-91c7-4a33-acb6-5a8a0fd5af10" targetElement="#4230e9a8-0401-4862-bc3a-f9a1c4cbf2d5"
               sourceElement="#19c9cbb1-fd92-4325-9168-863814687d90"/>
@@ -5626,7 +5608,7 @@
                 itemId="001259" revisionId="A"/>
           </ownedPhysicalLinks>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-              id="59b686f7-3d98-4578-875a-ce7e836cbeef" name="Starter" linkEnds="#8b9629ef-61b7-4c39-881c-549ec683d20e #00a56faa-65dd-4bcb-af9f-04eb56c56175">
+              id="59b686f7-3d98-4578-875a-ce7e836cbeef" name="ECU to Engine" linkEnds="#8b9629ef-61b7-4c39-881c-549ec683d20e #00a56faa-65dd-4bcb-af9f-04eb56c56175">
             <ownedExtensions xsi:type="smw:TcItemRevision" id="53c60c2e-344c-46dc-9ae2-e0063178bd1c"
                 tcuid="znJAAQGM5BWnuC" stableTcId="zLNAAQGM5BWnuC" occTcuid="UmAAAQGM5BWnuC"
                 itemId="001270" revisionId="A"/>
@@ -5658,7 +5640,7 @@
                 itemId="001273" revisionId="A"/>
           </ownedPhysicalLinks>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-              id="68cfdb55-c44b-4670-89d9-36fecbb1e4cd" name="PL 23" linkEnds="#e47f86aa-5898-4f69-ae22-21e32ce01ccd #639a3ecc-b6ec-480a-a3af-092eedbddb45">
+              id="68cfdb55-c44b-4670-89d9-36fecbb1e4cd" name="PL 23" linkEnds="#e47f86aa-5898-4f69-ae22-21e32ce01ccd #9675f31f-64c0-42f3-859c-d44c8ab264af">
             <ownedExtensions xsi:type="smw:TcItemRevision" id="302ec5ef-dbe6-4a63-912c-82dd9933a152"
                 tcuid="zrBAAQGM5BWnuC" stableTcId="zPFAAQGM5BWnuC" occTcuid="UeCAAQGM5BWnuC"
                 itemId="001274" revisionId="A"/>
@@ -5675,6 +5657,26 @@
                 tcuid="zfPAAQGM5BWnuC" stableTcId="zHDAAQGM5BWnuC" occTcuid="U2OAAQGM5BWnuC"
                 itemId="001257" revisionId="A"/>
           </ownedPhysicalLinks>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="ac077f60-2a55-483e-9432-5a6764f3da65" name="Starter" linkEnds="#5317b4b5-4f2b-4828-8b94-be18627a3f6d #ede76833-e981-4320-a161-8e72e51633c5"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="4e492ade-3ec6-41ba-a246-ed6cae0b1210" name="ECU to Battery" linkEnds="#9155fb9a-b122-487d-bbbe-db65e64963b7 #ababaa9e-5f4a-4c87-aea0-bb00d7a79ca7"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="2d8f4226-a7d3-4ef8-a3e8-bcaa5b9e8578" name="EL" linkEnds="#1742c666-9fb6-4a6f-a06b-390d054b6f6b #682155fb-0bae-41b8-bc4e-1ac93104421d"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="16e47528-7ad1-4bd3-9a57-9ea8570c3f6d" name="Fuel Line" linkEnds="#340325c0-f91a-4beb-98ec-010bfab52619 #50dd47f8-f631-40a7-89c1-e9864a8174be"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="fc9994dd-763c-457f-9be2-c46505feddbb" name="EL" linkEnds="#177c8af3-c526-4b72-aef9-714bbea21696 #f1bf9f68-e2f1-45d7-9476-0ff8f50d935c"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="03ce3d4b-4d8f-487b-babe-e237cbed2584" name="Gas Line" linkEnds="#ba9a705e-3bcf-4008-a33a-4efdfc26bbaf #96e50a8c-87c1-454d-8bc7-be34ce87448f"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="87c3b020-33ce-44b9-a9ef-cce37c7d29b4" name="Filtered Gas" linkEnds="#a9746043-ab0a-4a8c-a6c6-f4edf5f0c7b7 #da9f5473-55b5-4635-ab45-fdde2e3fbb39"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="73645fb5-599c-49f1-bcb9-7638110dce7b" name="Filtered Fuel" linkEnds="#486cbc85-9a4d-4e7a-b238-d29f43f2d509 #59caf262-8b98-4f60-b052-a1497ad66af1"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="72f24b2b-634a-4ded-aaab-753574874bae" name="Pumped Fuel Line" linkEnds="#45573ab9-68a0-47e0-a5e9-c17f01bb249e #175f62bd-6f66-4e1d-b054-93c6c8c72ed2"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="59427a14-de12-484f-8d7c-f1801f5f6a33" name="EL" linkEnds="#91618c12-a6f5-4894-891e-35e3e48fbcfb #d1306774-029e-417c-9a63-6853cf200cdd"/>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="78d28df6-7bff-40ec-a44a-f10df3660df1" name="Engine" nature="NODE">
             <ownedExtensions xsi:type="smw:TcItemRevision" id="4687945e-aab4-4a50-a2c8-aa6ce84f6410"
@@ -5690,6 +5692,303 @@
               <ownedExtensions xsi:type="smw:TcItemRevision" id="c8a9617a-479d-47ca-bc98-f055272011f0"
                   tcuid="j7AAAQGM5BWnuC" occTcuid="ktGAAQGM5BWnuC"/>
             </ownedFeatures>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="98958229-67e1-4843-9e56-c0087803d491"
+                name="Exhaust Assy" abstractType="#ba7337d0-98d0-4290-a0c9-62f633b24a56">
+              <ownedExtensions xsi:type="smw:TcItemRevision" id="e26a07dc-4033-4e3a-9a89-e136aab9eaa9"
+                  tcuid="HdGAAQGM5BWnuC" stableTcId="HdIAAQGM5BWnuC"/>
+              <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                  id="1c95636e-cd85-4115-9144-f719102c5305" deployedElement="#ec1ef805-7dec-4a96-bd1d-9b3d24f3d091"
+                  location="#98958229-67e1-4843-9e56-c0087803d491"/>
+            </ownedFeatures>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="590ed453-544a-4e0e-bb8f-76faea6ca1d5"
+                name="Combustor Assembly" abstractType="#15dea1d8-6c95-4bb0-8c98-d4fed24e067c">
+              <ownedExtensions xsi:type="smw:TcItemRevision" id="35a4146a-0dec-4b6f-922e-1af68c57d9d0"
+                  tcuid="HdNAAQGM5BWnuC" stableTcId="HdPAAQGM5BWnuC"/>
+              <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                  id="5168f4e4-bc7b-492a-989f-f35d395f1c35" deployedElement="#41564243-21a0-4334-bb4e-18cca69394c5"
+                  location="#590ed453-544a-4e0e-bb8f-76faea6ca1d5"/>
+            </ownedFeatures>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f8905bcc-ee64-4891-880c-40309d286c45"
+                name="Rotor Assy" abstractType="#4ce48510-61a6-4c06-9141-4cc64da8d77b">
+              <ownedExtensions xsi:type="smw:TcItemRevision" id="ccc9479b-f439-46bb-99e7-493bca3581da"
+                  tcuid="HZPAAQGM5BWnuC" stableTcId="HdBAAQGM5BWnuC"/>
+              <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                  id="8be960a8-a172-484f-a91b-3e4e3518263a" deployedElement="#8337a33a-fe88-487b-b98f-0c4e4faf7d5c"
+                  location="#f8905bcc-ee64-4891-880c-40309d286c45"/>
+            </ownedFeatures>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="fc5a2e9c-78c3-42c2-bf25-4c4829e9d9eb"
+                name="Engine Electronic Board" abstractType="#bd9ac24f-f30a-40d1-a2ce-9afd3f410c92"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="50dd47f8-f631-40a7-89c1-e9864a8174be" name="Fuel In"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="96e50a8c-87c1-454d-8bc7-be34ce87448f" name="Gas in"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="ba7337d0-98d0-4290-a0c9-62f633b24a56" appliedPropertyValueGroups="#4ef8404e-f10e-4467-99bf-655eabcf5415"
+                name="Exhaust Assy" nature="NODE">
+              <ownedExtensions xsi:type="smw:TcItemRevision" id="52713415-05e1-4c24-9c51-2f50ad6c3c91"
+                  tcuid="n4GAAQGM5BWnuC" stableTcId="n0KAAQGM5BWnuC" itemId="001282"
+                  revisionId="A"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="139cd9f1-df60-40cb-8947-3535448ed472"
+                  name="Exhaust Stator" abstractType="#58c30282-a6e0-4893-9298-e9a9e8242bfb">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="ab5eb2ec-581b-41c1-b63e-8197393ef0b2"
+                    tcuid="3wFAAQGM5BWnuC" stableTcId="3wHAAQGM5BWnuC"/>
+              </ownedFeatures>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="666b7360-bd18-4f13-944a-2279235352bf"
+                  name="Exhaust Nozzle" abstractType="#28525c62-8c59-42a9-9aae-cbd570bc217f">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="34cf9abb-8297-4939-adb8-90a8d8ef84bb"
+                    tcuid="3sNAAQGM5BWnuC" stableTcId="3sPAAQGM5BWnuC"/>
+              </ownedFeatures>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="903d928b-5dc5-4af6-b2d1-3c97493e0a04"
+                  name="Ignitor Plug" abstractType="#25fcbe72-41d6-41d7-9b07-a8444133d945"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="e2628114-904b-47fb-8b5f-517de210c90e"
+                  name="Engine Case" abstractType="#37ecbec1-4b85-4bf2-ac1d-262d475a77df"/>
+              <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                  id="58c30282-a6e0-4893-9298-e9a9e8242bfb" name="Exhaust Stator"
+                  nature="NODE">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="c4775517-493b-4340-ac0d-1dc35a90babf"
+                    tcuid="TTGAAQGM5BWnuC" stableTcId="DvCAAQGM5BWnuC" itemId="001230"
+                    revisionId="A"/>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="df520d13-46aa-4731-a68d-d06280f0fe05" name="PP 1">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="785f7afe-66c3-4675-a73b-0963ca082b08"
+                      tcuid="jrKAAQGM5BWnuC" occTcuid="EaDAAQGM5BWnuC"/>
+                </ownedFeatures>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="3a5c833a-9f64-40b2-b51d-c478faf2e858" name="PP 2">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="fb9d5ab8-3947-49c5-bdb0-4c2a828ee5b2"
+                      tcuid="jzOAAQGM5BWnuC" occTcuid="EWKAAQGM5BWnuC"/>
+                </ownedFeatures>
+              </ownedPhysicalComponents>
+              <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                  id="28525c62-8c59-42a9-9aae-cbd570bc217f" name="Exhaust Nozzle"
+                  nature="NODE">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="d98e8786-54b2-4161-b2b7-dc1ae7075485"
+                    tcuid="TXIAAQGM5BWnuC" stableTcId="DzEAAQGM5BWnuC" itemId="001239"
+                    revisionId="A"/>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="aaf4cd5f-f4cf-447d-b88c-b7156a9a7dd2" name="PP 1">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="13600bf2-38e5-44b5-931a-c71b3beb667a"
+                      tcuid="jrMAAQGM5BWnuC" occTcuid="0JLAAQGM5BWnuC"/>
+                </ownedFeatures>
+                <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
+                    id="3a439d0f-259d-4b0c-8984-dff84be65e6a" targetElement="#16c35440-562c-45f7-b47e-ebccd5723193"
+                    sourceElement="#28525c62-8c59-42a9-9aae-cbd570bc217f"/>
+              </ownedPhysicalComponents>
+              <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                  id="25fcbe72-41d6-41d7-9b07-a8444133d945" name="Ignitor Plug" nature="NODE"/>
+              <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                  id="37ecbec1-4b85-4bf2-ac1d-262d475a77df" name="Engine Case" nature="NODE"/>
+            </ownedPhysicalComponents>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="15dea1d8-6c95-4bb0-8c98-d4fed24e067c" appliedPropertyValueGroups="#765f7faf-5c7a-48d4-b7be-9d24d48a92bd"
+                name="Combustor Assembly" nature="NODE">
+              <ownedExtensions xsi:type="smw:TcItemRevision" id="6c3ccc8f-ca2c-4a67-9aae-d2f135a482b2"
+                  tcuid="n4IAAQGM5BWnuC" stableTcId="n0MAAQGM5BWnuC" itemId="001283"
+                  revisionId="A"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="417e8c0d-5213-4ca8-b163-d407243b99fb"
+                  name="Combustor" abstractType="#c66ac99e-6ec7-44d6-9487-fe1df273a053">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="2da06ed4-140f-4af8-8992-932445d1957f"
+                    tcuid="3UPAAQGM5BWnuC" stableTcId="3YBAAQGM5BWnuC"/>
+              </ownedFeatures>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="8d5513de-6277-472e-bceb-6efd1c60314c"
+                  name="Pipe Ring" abstractType="#7c6caee5-0772-4d80-ab9f-296f09eb5e9b">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="70dd4f40-9951-45ec-9faa-0b35d9163b84"
+                    tcuid="3UHAAQGM5BWnuC" stableTcId="3UJAAQGM5BWnuC"/>
+              </ownedFeatures>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f991699f-93b5-4c1c-8f39-35f407628d6f"
+                  name="Adept Pipe Z" abstractType="#6a457dc9-a0b2-408f-9527-d4f0203de9a1">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="131ff982-0287-4d12-bc29-15565e1677f5"
+                    tcuid="3QOAAQGM5BWnuC" stableTcId="3UAAAQGM5BWnuC"/>
+              </ownedFeatures>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="82196f87-09ca-4018-85a5-925261b09125"
+                  name="Compressor Disk" abstractType="#e262cd6c-8623-4ebf-8e77-dbac167f1061">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="4831cdf3-ae0a-4c95-bdf7-b34623754460"
+                    tcuid="3YHAAQGM5BWnuC" stableTcId="3YJAAQGM5BWnuC"/>
+              </ownedFeatures>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="2d3fb146-bccf-4192-9175-24776c1078d8"
+                  name="Combusto Inlet Guide Vane" abstractType="#6bbef9f4-b58d-4092-9e9e-f1a189463d10">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="402bb2f4-9501-4634-9ae0-fa30ad7144d2"
+                    tcuid="X9EAAQGM5BWnuC" stableTcId="X9GAAQGM5BWnuC"/>
+              </ownedFeatures>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="086fedbe-412b-4bef-818c-9b73320bd977"
+                  name="Combustor Shaft" abstractType="#55e72b3b-15e0-44ac-92c4-e4cb2a48324c"/>
+              <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
+                  id="38d70b40-8b4e-4b30-90ee-90dd3edc1f0d" targetElement="#16c35440-562c-45f7-b47e-ebccd5723193"
+                  sourceElement="#15dea1d8-6c95-4bb0-8c98-d4fed24e067c"/>
+              <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                  id="c66ac99e-6ec7-44d6-9487-fe1df273a053" name="Combustor" nature="NODE">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="52046991-60a7-442b-82cb-dd76fff6a773"
+                    tcuid="TPOAAQGM5BWnuC" stableTcId="DrKAAQGM5BWnuC" itemId="001226"
+                    revisionId="A"/>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="984cabec-2074-4ef5-8197-6565d07ee655" name="PP 1">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="1d1972f1-3d99-4299-ac95-5ee14fce5207"
+                      tcuid="zDIAAQGM5BWnuC" occTcuid="UBLAAQGM5BWnuC"/>
+                </ownedFeatures>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="7e5150be-491b-46fe-91c2-3b6efdbe975f" name="PP 2">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="ec3242ce-695e-4faa-a425-fc951786f559"
+                      tcuid="j$MAAQGM5BWnuC" occTcuid="UFEAAQGM5BWnuC"/>
+                </ownedFeatures>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="409ad8e6-2ab1-4347-af33-dc2b107ad16b" name="PP 3">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="e898b9b7-106b-417b-9775-96ed3ba7559d"
+                      tcuid="j7KAAQGM5BWnuC" occTcuid="UFNAAQGM5BWnuC"/>
+                </ownedFeatures>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="efd18f79-1fbb-4a8e-ba8f-504aa3576dc4" name="PP 4">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="a8fabab6-c2e7-44ad-9cc3-1a757df9e9d0"
+                      tcuid="jzCAAQGM5BWnuC" occTcuid="UJGAAQGM5BWnuC"/>
+                </ownedFeatures>
+              </ownedPhysicalComponents>
+              <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                  id="7c6caee5-0772-4d80-ab9f-296f09eb5e9b" name="Pipe Ring" nature="NODE">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="c73644a2-55e8-4ae2-8beb-33fbfdf10404"
+                    tcuid="TfAAAQGM5BWnuC" stableTcId="D3MAAQGM5BWnuC" itemId="001251"
+                    revisionId="A"/>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="632c9bcc-6c6d-454c-ad2b-66818c3e66b7" name="PP 1">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="4cdb1d1f-f2b2-4086-b590-5ca3425dbf81"
+                      tcuid="jzKAAQGM5BWnuC" occTcuid="U1IAAQGM5BWnuC"/>
+                </ownedFeatures>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="a213433c-18d0-400d-a6da-40753a06e9c0" name="PP 2">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="0545a7cf-a114-4811-834d-edddadb4e1fe"
+                      tcuid="jvCAAQGM5BWnuC" occTcuid="UxPAAQGM5BWnuC"/>
+                </ownedFeatures>
+              </ownedPhysicalComponents>
+              <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                  id="6a457dc9-a0b2-408f-9527-d4f0203de9a1" name="Adept Pipe Z" nature="NODE">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="06bbd201-963a-4c4e-a928-f522af8ef0d7"
+                    tcuid="TXEAAQGM5BWnuC" stableTcId="DzAAAQGM5BWnuC" itemId="001237"
+                    revisionId="A"/>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="fac534f5-97b4-4361-a2ba-dffcb3f3d073" name="PP 1">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="5ab9ce8c-409b-4f91-873d-aec00d2cbc5c"
+                      tcuid="j3CAAQGM5BWnuC" occTcuid="0VOAAQGM5BWnuC"/>
+                </ownedFeatures>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="5469bf74-cbea-48c4-9edf-fd056ced54ff" name="PP 2">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="7574ecea-2a60-452e-bb22-ffa710017d00"
+                      tcuid="zDGAAQGM5BWnuC" occTcuid="0RMAAQGM5BWnuC"/>
+                </ownedFeatures>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="b6440dc0-3b95-4e85-897f-21cb15727bf5" name="PP 3">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="84c89f7f-9e05-4370-ae31-aef181cdbbc4"
+                      tcuid="j$GAAQGM5BWnuC" occTcuid="0VFAAQGM5BWnuC"/>
+                </ownedFeatures>
+              </ownedPhysicalComponents>
+              <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                  id="e262cd6c-8623-4ebf-8e77-dbac167f1061" name="Compressor Disk"
+                  nature="NODE">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="563db55c-d53a-458b-8ac8-862f5ac7f9a6"
+                    tcuid="TTCAAQGM5BWnuC" stableTcId="DrOAAQGM5BWnuC" itemId="001228"
+                    revisionId="A"/>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="baddacfd-263c-4415-9034-7c09f5a98791" name="PP 1">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="db91ab29-6d32-482e-bf0f-c8ce8605aa5c"
+                      tcuid="jzEAAQGM5BWnuC" occTcuid="ExAAAQGM5BWnuC"/>
+                </ownedFeatures>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="e7ff6f59-ee47-4e3f-aad9-f1fd2ac849fa" name="PP 3">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="c47159b4-e7d4-4c71-a28a-c931e20b31de"
+                      tcuid="j7IAAQGM5BWnuC" occTcuid="ExJAAQGM5BWnuC"/>
+                </ownedFeatures>
+              </ownedPhysicalComponents>
+              <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                  id="6bbef9f4-b58d-4092-9e9e-f1a189463d10" name="Combusto Inlet Guide Vane"
+                  nature="NODE">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="ddbb5c62-0eda-4c08-bf87-1924a1122db2"
+                    tcuid="TPIAAQGM5BWnuC" stableTcId="DrEAAQGM5BWnuC" itemId="001223"
+                    revisionId="A"/>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="70f6f106-8fdc-4007-afdb-91cb9e911400" name="PP 1">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="dd621331-3afb-4aaa-8fdc-88c3f3512066"
+                      tcuid="jvGAAQGM5BWnuC" occTcuid="ERLAAQGM5BWnuC"/>
+                </ownedFeatures>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="46e0222c-6947-4007-8d1e-c83b848fff52" name="PP 2">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="72080ee8-c04d-4fed-99cb-02dfd1fc82e5"
+                      tcuid="j7MAAQGM5BWnuC" occTcuid="ERCAAQGM5BWnuC"/>
+                </ownedFeatures>
+              </ownedPhysicalComponents>
+              <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                  id="55e72b3b-15e0-44ac-92c4-e4cb2a48324c" name="Combustor Shaft"
+                  nature="NODE"/>
+            </ownedPhysicalComponents>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="4ce48510-61a6-4c06-9141-4cc64da8d77b" appliedPropertyValueGroups="#fe8428a5-a0ab-480f-b67d-da6e728d4845"
+                name="Rotor Assy" nature="NODE">
+              <ownedExtensions xsi:type="smw:TcItemRevision" id="66fc961a-b3ea-4d36-82a6-440595f07845"
+                  tcuid="n4KAAQGM5BWnuC" stableTcId="n0OAAQGM5BWnuC" itemId="001284"
+                  revisionId="A"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="8ecc780f-98ac-4525-9c02-4462384ab4a5"
+                  name="Turbine" abstractType="#211ecd45-f1e3-44d6-89f9-84d14878c5a9">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="f4e508eb-f373-41d1-b931-2f47b134b11e"
+                    tcuid="38MAAQGM5BWnuC" stableTcId="38OAAQGM5BWnuC"/>
+              </ownedFeatures>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f4e05e7b-c3e6-47ef-b3cc-32e0e2f8fdbc"
+                  name="Shaft" abstractType="#50dfe7f7-ee1d-4728-a6ee-63c9c57804a9">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="0d60b35c-1ab8-4681-9722-ee3625a1fc9f"
+                    tcuid="HBEAAQGM5BWnuC" stableTcId="HBGAAQGM5BWnuC"/>
+              </ownedFeatures>
+              <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
+                  id="40892b36-12a5-4961-a47c-f99905c17cda" targetElement="#16c35440-562c-45f7-b47e-ebccd5723193"
+                  sourceElement="#4ce48510-61a6-4c06-9141-4cc64da8d77b"/>
+              <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                  id="211ecd45-f1e3-44d6-89f9-84d14878c5a9" name="Turbine" nature="NODE">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="02054133-129a-4bd1-a962-a452bc29d94d"
+                    tcuid="TTOAAQGM5BWnuC" stableTcId="DvKAAQGM5BWnuC" itemId="001234"
+                    revisionId="A"/>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="0f1f5545-b265-4fdf-88fa-302cb49d6b4b" name="PP 1">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="c3143a81-f4d1-4c92-a65e-f549bbed120e"
+                      tcuid="jvMAAQGM5BWnuC" occTcuid="0tCAAQGM5BWnuC"/>
+                </ownedFeatures>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="a7662d35-812c-4ac0-ac3b-af39d85ac728" name="PP 2">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="20ba5387-e6b9-4782-8199-e134209c75ab"
+                      tcuid="j$KAAQGM5BWnuC" occTcuid="0pJAAQGM5BWnuC"/>
+                </ownedFeatures>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="6b6d6376-6873-4eca-b646-1cba56efbc5c" name="PP 3">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="25ff18a5-6505-4d0b-9bb5-bb26d4867846"
+                      tcuid="j3AAAQGM5BWnuC" occTcuid="0pAAAQGM5BWnuC"/>
+                </ownedFeatures>
+              </ownedPhysicalComponents>
+              <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                  id="50dfe7f7-ee1d-4728-a6ee-63c9c57804a9" name="Shaft" nature="NODE">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="b482188b-aa68-4220-ab6c-bf5191296c32"
+                    tcuid="TfGAAQGM5BWnuC" stableTcId="D7CAAQGM5BWnuC" itemId="001254"
+                    revisionId="A"/>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="200a2d26-f4fa-4482-9e0e-e06bd0e00b27" name="PP 1">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="160531a7-33da-4f77-b15f-e228fdd5bfa1"
+                      tcuid="j3IAAQGM5BWnuC" occTcuid="UVAAAQGM5BWnuC"/>
+                </ownedFeatures>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="bfd51d96-ea98-4962-b3cd-90299a92c631" name="PP 2">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="7d22239a-c184-4b50-b2b6-4bcd481e836e"
+                      tcuid="zDKAAQGM5BWnuC" occTcuid="UVJAAQGM5BWnuC"/>
+                </ownedFeatures>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="a6868608-df45-42b7-8211-03d919d7aed0" name="PP 3">
+                  <ownedExtensions xsi:type="smw:TcItemRevision" id="2766607d-d010-4c93-8f0f-ebd349d617e2"
+                      tcuid="jvKAAQGM5BWnuC" occTcuid="URHAAQGM5BWnuC"/>
+                </ownedFeatures>
+              </ownedPhysicalComponents>
+            </ownedPhysicalComponents>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="bd9ac24f-f30a-40d1-a2ce-9afd3f410c92" name="Engine Electronic Board"
+                nature="NODE">
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="00a56faa-65dd-4bcb-af9f-04eb56c56175" name="PP 2">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="b9c66d1d-2463-4d37-a6d4-30cdd6e7e1d2"
+                    tcuid="jrIAAQGM5BWnuC" occTcuid="EGIAAQGM5BWnuC"/>
+              </ownedFeatures>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="5317b4b5-4f2b-4828-8b94-be18627a3f6d" name="PP 3"/>
+            </ownedPhysicalComponents>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="253299bb-1ee8-47fe-87c4-b4d76cf3ace7" name="Engine Mount" nature="NODE">
@@ -6045,11 +6344,6 @@
                 tcuid="TbOAAQGM5BWnuC" stableTcId="D3KAAQGM5BWnuC" itemId="001250"
                 revisionId="A"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="8b9629ef-61b7-4c39-881c-549ec683d20e" name="PP 1">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="3cba6bd3-abb3-487a-a4ab-5c19d65db618"
-                  tcuid="j$IAAQGM5BWnuC" occTcuid="kJGAAQGM5BWnuC"/>
-            </ownedFeatures>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="8f6f2d16-3fc0-4fb6-b6fd-2a2c45f45910" name="PP 2">
               <ownedExtensions xsi:type="smw:TcItemRevision" id="91ed49bb-525c-468a-ba15-d52b0a3ceec3"
                   tcuid="j7EAAQGM5BWnuC" occTcuid="kFEAAQGM5BWnuC"/>
@@ -6075,11 +6369,6 @@
                   tcuid="zDCAAQGM5BWnuC" occTcuid="kRBAAQGM5BWnuC"/>
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="639a3ecc-b6ec-480a-a3af-092eedbddb45" name="PP 7">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="68326ffd-3f63-49ad-bf17-2688a188cdbf"
-                  tcuid="j7GAAQGM5BWnuC" occTcuid="kJPAAQGM5BWnuC"/>
-            </ownedFeatures>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="6217f755-c469-4447-8456-2d1ace986d69" name="PP 8">
               <ownedExtensions xsi:type="smw:TcItemRevision" id="20162746-b954-4b91-953f-db149dcf7107"
                   tcuid="zDEAAQGM5BWnuC" occTcuid="kNIAAQGM5BWnuC"/>
@@ -6089,62 +6378,49 @@
               <ownedExtensions xsi:type="smw:TcItemRevision" id="c5ad7833-9ccc-46b1-9248-a846197046b6"
                   tcuid="jvOAAQGM5BWnuC" occTcuid="U9JAAQGM5BWnuC"/>
             </ownedFeatures>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="3a909539-e056-4777-a4ce-9a1e3394fc9f"
+                name="ECU" abstractType="#2f39e70a-3710-4486-bc68-dc2e196e21de"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="ef89e24f-6b9b-48d9-9cd1-265cf1fa0e7e"
+                name="I/O Board" abstractType="#d3e71af1-449b-402a-b65c-ef72c4308ff5"/>
+            <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+                id="30e76678-a436-4a58-9c1b-53e6c9c79b53" name="Data Cable" linkEnds="#31b90484-c90a-4f19-91a0-4c61da2f2f4e #8af2ade4-f389-4730-b7d5-6294d638b944"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="2f39e70a-3710-4486-bc68-dc2e196e21de" name="ECU" nature="NODE">
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="31b90484-c90a-4f19-91a0-4c61da2f2f4e" name="PP 1"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="8b9629ef-61b7-4c39-881c-549ec683d20e" name="PP 1">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="3cba6bd3-abb3-487a-a4ab-5c19d65db618"
+                    tcuid="j$IAAQGM5BWnuC" occTcuid="kJGAAQGM5BWnuC"/>
+              </ownedFeatures>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="ababaa9e-5f4a-4c87-aea0-bb00d7a79ca7" name="PP 3"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="682155fb-0bae-41b8-bc4e-1ac93104421d" name="PP 4"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="177c8af3-c526-4b72-aef9-714bbea21696" name="PP 5"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="bca07fbc-0900-4af3-b985-ff74d7495ded" name="Throttle In"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="42f013cd-2f12-4639-98c0-3e14db58ac31" name="AUX"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="d1306774-029e-417c-9a63-6853cf200cdd" name="PP 8"/>
+            </ownedPhysicalComponents>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="d3e71af1-449b-402a-b65c-ef72c4308ff5" name="I/O Board" nature="NODE">
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="8af2ade4-f389-4730-b7d5-6294d638b944" name="PP 1"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="9675f31f-64c0-42f3-859c-d44c8ab264af" name="to GSU"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="2150b2a6-9c27-4eff-8928-a70ea58bab5d" name="Telemetry"/>
+            </ownedPhysicalComponents>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="3f67ae2b-1c96-4663-a1a2-916d97784b93" name="Case Exhaust" nature="NODE">
             <ownedExtensions xsi:type="smw:TcItemRevision" id="428c75d8-deef-4ad7-8fec-28002857c39e"
                 tcuid="TLOAAQGM5BWnuC" stableTcId="DnKAAQGM5BWnuC" itemId="001218"
                 revisionId="A"/>
-          </ownedPhysicalComponents>
-          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="3ba593ac-b4b8-49b7-9951-7c8f5790e47f" appliedPropertyValueGroups="#3ed5fa50-3250-47ff-b925-ec55179de705"
-              name="Inlet" nature="NODE">
-            <ownedExtensions xsi:type="smw:TcItemRevision" id="44fa543d-bdce-4e28-b50d-0eff418d33c4"
-                tcuid="TXCAAQGM5BWnuC" stableTcId="DvOAAQGM5BWnuC" itemId="001236"
-                revisionId="A"/>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="de69fa26-bd2a-437e-8360-f282fbb2e556" name="PP 1">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="ed203bea-83bc-4f1c-a64c-2291d4dcfbc0"
-                  tcuid="jzIAAQGM5BWnuC" occTcuid="0dPAAQGM5BWnuC"/>
-            </ownedFeatures>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="2d3fb146-bccf-4192-9175-24776c1078d8"
-                name="Combusto Inlet Guide Vane" abstractType="#6bbef9f4-b58d-4092-9e9e-f1a189463d10">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="402bb2f4-9501-4634-9ae0-fa30ad7144d2"
-                  tcuid="X9EAAQGM5BWnuC" stableTcId="X9GAAQGM5BWnuC"/>
-            </ownedFeatures>
-            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-                id="6bbef9f4-b58d-4092-9e9e-f1a189463d10" name="Combusto Inlet Guide Vane"
-                nature="NODE">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="ddbb5c62-0eda-4c08-bf87-1924a1122db2"
-                  tcuid="TPIAAQGM5BWnuC" stableTcId="DrEAAQGM5BWnuC" itemId="001223"
-                  revisionId="A"/>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="70f6f106-8fdc-4007-afdb-91cb9e911400" name="PP 1">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="dd621331-3afb-4aaa-8fdc-88c3f3512066"
-                    tcuid="jvGAAQGM5BWnuC" occTcuid="ERLAAQGM5BWnuC"/>
-              </ownedFeatures>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="46e0222c-6947-4007-8d1e-c83b848fff52" name="PP 2">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="72080ee8-c04d-4fed-99cb-02dfd1fc82e5"
-                    tcuid="j7MAAQGM5BWnuC" occTcuid="ERCAAQGM5BWnuC"/>
-              </ownedFeatures>
-            </ownedPhysicalComponents>
-          </ownedPhysicalComponents>
-          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="c390e931-0752-4298-b5de-0318a4333183" name="JetCat Starter" nature="NODE">
-            <ownedExtensions xsi:type="smw:TcItemRevision" id="d48764a1-8f96-44f2-a1f1-2940a98f905b"
-                tcuid="TTKAAQGM5BWnuC" stableTcId="DvGAAQGM5BWnuC" itemId="001232"
-                revisionId="A"/>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="aea4d70e-c7c0-48fb-b198-6d3394ba0ec8" name="PP 1">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="5a39a254-2d85-4c97-89ba-b12816a4dfed"
-                  tcuid="jvEAAQGM5BWnuC" occTcuid="ECPAAQGM5BWnuC"/>
-            </ownedFeatures>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="00a56faa-65dd-4bcb-af9f-04eb56c56175" name="PP 2">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="b9c66d1d-2463-4d37-a6d4-30cdd6e7e1d2"
-                  tcuid="jrIAAQGM5BWnuC" occTcuid="EGIAAQGM5BWnuC"/>
-            </ownedFeatures>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="28c654e6-8b78-4a11-81a9-d1e261a3d245" name="Starter Fuel" nature="NODE">
@@ -6191,218 +6467,106 @@
             </ownedFeatures>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="ba7337d0-98d0-4290-a0c9-62f633b24a56" appliedPropertyValueGroups="#4ef8404e-f10e-4467-99bf-655eabcf5415"
-              name="Exhaust Assy" nature="NODE">
-            <ownedExtensions xsi:type="smw:TcItemRevision" id="52713415-05e1-4c24-9c51-2f50ad6c3c91"
-                tcuid="n4GAAQGM5BWnuC" stableTcId="n0KAAQGM5BWnuC" itemId="001282"
-                revisionId="A"/>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="139cd9f1-df60-40cb-8947-3535448ed472"
-                name="Exhaust Stator" abstractType="#58c30282-a6e0-4893-9298-e9a9e8242bfb">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="ab5eb2ec-581b-41c1-b63e-8197393ef0b2"
-                  tcuid="3wFAAQGM5BWnuC" stableTcId="3wHAAQGM5BWnuC"/>
+              id="f9ddf179-49c1-4e30-9a04-a710dfc4d055" name="Inlet Assembly" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="0bab46a8-c1c0-4cfa-b680-0e74ee5d5897"
+                name="JetCat Starter" abstractType="#c390e931-0752-4298-b5de-0318a4333183">
+              <ownedExtensions xsi:type="smw:TcItemRevision" id="7dfd98ec-81ff-4960-afe5-312e94edbc3f"
+                  tcuid="EmFAAQGM5BWnuC" stableTcId="EmHAAQGM5BWnuC"/>
+              <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                  id="19f316dc-ef06-4125-9bbf-55aef5ca0d8d" deployedElement="#77b4a072-b0e6-44d6-b789-46756c692a7d"
+                  location="#0bab46a8-c1c0-4cfa-b680-0e74ee5d5897"/>
             </ownedFeatures>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="666b7360-bd18-4f13-944a-2279235352bf"
-                name="Exhaust Nozzle" abstractType="#28525c62-8c59-42a9-9aae-cbd570bc217f">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="34cf9abb-8297-4939-adb8-90a8d8ef84bb"
-                  tcuid="3sNAAQGM5BWnuC" stableTcId="3sPAAQGM5BWnuC"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="c79fb7c3-8b2b-45df-b68d-2b06f96c9ee3"
+                name="Inlet" abstractType="#3ba593ac-b4b8-49b7-9951-7c8f5790e47f">
+              <ownedExtensions xsi:type="smw:TcItemRevision" id="aca572fb-d6e5-4887-af69-3657e58a7b17"
+                  tcuid="EmNAAQGM5BWnuC" stableTcId="EmPAAQGM5BWnuC"/>
+              <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                  id="627351aa-d85b-4989-b9b2-049aa5fe62e6" deployedElement="#3bca36ad-38c1-400a-bb80-26e8ab1d4a84"
+                  location="#c79fb7c3-8b2b-45df-b68d-2b06f96c9ee3"/>
             </ownedFeatures>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="5dd2a852-7be0-471c-87b4-f8da1c9184f9"
+                name="Inlet Support" abstractType="#802a6806-d051-4178-95a9-42b8e65fcade"/>
             <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-                id="58c30282-a6e0-4893-9298-e9a9e8242bfb" name="Exhaust Stator" nature="NODE">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="c4775517-493b-4340-ac0d-1dc35a90babf"
-                  tcuid="TTGAAQGM5BWnuC" stableTcId="DvCAAQGM5BWnuC" itemId="001230"
+                id="c390e931-0752-4298-b5de-0318a4333183" name="JetCat Starter" nature="NODE">
+              <ownedExtensions xsi:type="smw:TcItemRevision" id="d48764a1-8f96-44f2-a1f1-2940a98f905b"
+                  tcuid="TTKAAQGM5BWnuC" stableTcId="DvGAAQGM5BWnuC" itemId="001232"
                   revisionId="A"/>
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="df520d13-46aa-4731-a68d-d06280f0fe05" name="PP 1">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="785f7afe-66c3-4675-a73b-0963ca082b08"
-                    tcuid="jrKAAQGM5BWnuC" occTcuid="EaDAAQGM5BWnuC"/>
+                  id="aea4d70e-c7c0-48fb-b198-6d3394ba0ec8" name="PP 1">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="5a39a254-2d85-4c97-89ba-b12816a4dfed"
+                    tcuid="jvEAAQGM5BWnuC" occTcuid="ECPAAQGM5BWnuC"/>
               </ownedFeatures>
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="3a5c833a-9f64-40b2-b51d-c478faf2e858" name="PP 2">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="fb9d5ab8-3947-49c5-bdb0-4c2a828ee5b2"
-                    tcuid="jzOAAQGM5BWnuC" occTcuid="EWKAAQGM5BWnuC"/>
-              </ownedFeatures>
+                  id="ede76833-e981-4320-a161-8e72e51633c5" name="PP 2"/>
             </ownedPhysicalComponents>
             <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-                id="28525c62-8c59-42a9-9aae-cbd570bc217f" name="Exhaust Nozzle" nature="NODE">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="d98e8786-54b2-4161-b2b7-dc1ae7075485"
-                  tcuid="TXIAAQGM5BWnuC" stableTcId="DzEAAQGM5BWnuC" itemId="001239"
+                id="3ba593ac-b4b8-49b7-9951-7c8f5790e47f" appliedPropertyValueGroups="#3ed5fa50-3250-47ff-b925-ec55179de705"
+                name="Inlet" nature="NODE">
+              <ownedExtensions xsi:type="smw:TcItemRevision" id="44fa543d-bdce-4e28-b50d-0eff418d33c4"
+                  tcuid="TXCAAQGM5BWnuC" stableTcId="DvOAAQGM5BWnuC" itemId="001236"
                   revisionId="A"/>
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="aaf4cd5f-f4cf-447d-b88c-b7156a9a7dd2" name="PP 1">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="13600bf2-38e5-44b5-931a-c71b3beb667a"
-                    tcuid="jrMAAQGM5BWnuC" occTcuid="0JLAAQGM5BWnuC"/>
-              </ownedFeatures>
-            </ownedPhysicalComponents>
-          </ownedPhysicalComponents>
-          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="15dea1d8-6c95-4bb0-8c98-d4fed24e067c" appliedPropertyValueGroups="#765f7faf-5c7a-48d4-b7be-9d24d48a92bd"
-              name="Combustor Assembly" nature="NODE">
-            <ownedExtensions xsi:type="smw:TcItemRevision" id="6c3ccc8f-ca2c-4a67-9aae-d2f135a482b2"
-                tcuid="n4IAAQGM5BWnuC" stableTcId="n0MAAQGM5BWnuC" itemId="001283"
-                revisionId="A"/>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="417e8c0d-5213-4ca8-b163-d407243b99fb"
-                name="Combustor" abstractType="#c66ac99e-6ec7-44d6-9487-fe1df273a053">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="2da06ed4-140f-4af8-8992-932445d1957f"
-                  tcuid="3UPAAQGM5BWnuC" stableTcId="3YBAAQGM5BWnuC"/>
-            </ownedFeatures>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="8d5513de-6277-472e-bceb-6efd1c60314c"
-                name="Pipe Ring" abstractType="#7c6caee5-0772-4d80-ab9f-296f09eb5e9b">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="70dd4f40-9951-45ec-9faa-0b35d9163b84"
-                  tcuid="3UHAAQGM5BWnuC" stableTcId="3UJAAQGM5BWnuC"/>
-            </ownedFeatures>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f991699f-93b5-4c1c-8f39-35f407628d6f"
-                name="Adept Pipe Z" abstractType="#6a457dc9-a0b2-408f-9527-d4f0203de9a1">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="131ff982-0287-4d12-bc29-15565e1677f5"
-                  tcuid="3QOAAQGM5BWnuC" stableTcId="3UAAAQGM5BWnuC"/>
-            </ownedFeatures>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="82196f87-09ca-4018-85a5-925261b09125"
-                name="Compressor Disk" abstractType="#e262cd6c-8623-4ebf-8e77-dbac167f1061">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="4831cdf3-ae0a-4c95-bdf7-b34623754460"
-                  tcuid="3YHAAQGM5BWnuC" stableTcId="3YJAAQGM5BWnuC"/>
-            </ownedFeatures>
-            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-                id="c66ac99e-6ec7-44d6-9487-fe1df273a053" name="Combustor" nature="NODE">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="52046991-60a7-442b-82cb-dd76fff6a773"
-                  tcuid="TPOAAQGM5BWnuC" stableTcId="DrKAAQGM5BWnuC" itemId="001226"
-                  revisionId="A"/>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="984cabec-2074-4ef5-8197-6565d07ee655" name="PP 1">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="1d1972f1-3d99-4299-ac95-5ee14fce5207"
-                    tcuid="zDIAAQGM5BWnuC" occTcuid="UBLAAQGM5BWnuC"/>
-              </ownedFeatures>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="7e5150be-491b-46fe-91c2-3b6efdbe975f" name="PP 2">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="ec3242ce-695e-4faa-a425-fc951786f559"
-                    tcuid="j$MAAQGM5BWnuC" occTcuid="UFEAAQGM5BWnuC"/>
-              </ownedFeatures>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="409ad8e6-2ab1-4347-af33-dc2b107ad16b" name="PP 3">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="e898b9b7-106b-417b-9775-96ed3ba7559d"
-                    tcuid="j7KAAQGM5BWnuC" occTcuid="UFNAAQGM5BWnuC"/>
-              </ownedFeatures>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="efd18f79-1fbb-4a8e-ba8f-504aa3576dc4" name="PP 4">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="a8fabab6-c2e7-44ad-9cc3-1a757df9e9d0"
-                    tcuid="jzCAAQGM5BWnuC" occTcuid="UJGAAQGM5BWnuC"/>
-              </ownedFeatures>
-            </ownedPhysicalComponents>
-            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-                id="7c6caee5-0772-4d80-ab9f-296f09eb5e9b" name="Pipe Ring" nature="NODE">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="c73644a2-55e8-4ae2-8beb-33fbfdf10404"
-                  tcuid="TfAAAQGM5BWnuC" stableTcId="D3MAAQGM5BWnuC" itemId="001251"
-                  revisionId="A"/>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="632c9bcc-6c6d-454c-ad2b-66818c3e66b7" name="PP 1">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="4cdb1d1f-f2b2-4086-b590-5ca3425dbf81"
-                    tcuid="jzKAAQGM5BWnuC" occTcuid="U1IAAQGM5BWnuC"/>
-              </ownedFeatures>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="a213433c-18d0-400d-a6da-40753a06e9c0" name="PP 2">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="0545a7cf-a114-4811-834d-edddadb4e1fe"
-                    tcuid="jvCAAQGM5BWnuC" occTcuid="UxPAAQGM5BWnuC"/>
-              </ownedFeatures>
-            </ownedPhysicalComponents>
-            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-                id="6a457dc9-a0b2-408f-9527-d4f0203de9a1" name="Adept Pipe Z" nature="NODE">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="06bbd201-963a-4c4e-a928-f522af8ef0d7"
-                  tcuid="TXEAAQGM5BWnuC" stableTcId="DzAAAQGM5BWnuC" itemId="001237"
-                  revisionId="A"/>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="fac534f5-97b4-4361-a2ba-dffcb3f3d073" name="PP 1">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="5ab9ce8c-409b-4f91-873d-aec00d2cbc5c"
-                    tcuid="j3CAAQGM5BWnuC" occTcuid="0VOAAQGM5BWnuC"/>
-              </ownedFeatures>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="5469bf74-cbea-48c4-9edf-fd056ced54ff" name="PP 2">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="7574ecea-2a60-452e-bb22-ffa710017d00"
-                    tcuid="zDGAAQGM5BWnuC" occTcuid="0RMAAQGM5BWnuC"/>
-              </ownedFeatures>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="b6440dc0-3b95-4e85-897f-21cb15727bf5" name="PP 3">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="84c89f7f-9e05-4370-ae31-aef181cdbbc4"
-                    tcuid="j$GAAQGM5BWnuC" occTcuid="0VFAAQGM5BWnuC"/>
-              </ownedFeatures>
-            </ownedPhysicalComponents>
-            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-                id="e262cd6c-8623-4ebf-8e77-dbac167f1061" name="Compressor Disk" nature="NODE">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="563db55c-d53a-458b-8ac8-862f5ac7f9a6"
-                  tcuid="TTCAAQGM5BWnuC" stableTcId="DrOAAQGM5BWnuC" itemId="001228"
-                  revisionId="A"/>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="baddacfd-263c-4415-9034-7c09f5a98791" name="PP 1">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="db91ab29-6d32-482e-bf0f-c8ce8605aa5c"
-                    tcuid="jzEAAQGM5BWnuC" occTcuid="ExAAAQGM5BWnuC"/>
+                  id="de69fa26-bd2a-437e-8360-f282fbb2e556" name="PP 1">
+                <ownedExtensions xsi:type="smw:TcItemRevision" id="ed203bea-83bc-4f1c-a64c-2291d4dcfbc0"
+                    tcuid="jzIAAQGM5BWnuC" occTcuid="0dPAAQGM5BWnuC"/>
               </ownedFeatures>
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                   id="33f1e68e-7e41-4046-a0d3-c9d28f1a1419" name="PP 2">
                 <ownedExtensions xsi:type="smw:TcItemRevision" id="7c1f252f-8adf-441f-99c2-c6f476fe0330"
                     tcuid="j$EAAQGM5BWnuC" occTcuid="EtHAAQGM5BWnuC"/>
               </ownedFeatures>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="e7ff6f59-ee47-4e3f-aad9-f1fd2ac849fa" name="PP 3">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="c47159b4-e7d4-4c71-a28a-c931e20b31de"
-                    tcuid="j7IAAQGM5BWnuC" occTcuid="ExJAAQGM5BWnuC"/>
-              </ownedFeatures>
+              <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
+                  id="5b02cd56-b809-4f66-a359-58b339effb0a" targetElement="#16c35440-562c-45f7-b47e-ebccd5723193"
+                  sourceElement="#3ba593ac-b4b8-49b7-9951-7c8f5790e47f"/>
             </ownedPhysicalComponents>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="802a6806-d051-4178-95a9-42b8e65fcade" name="Inlet Support" nature="NODE"/>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="4ce48510-61a6-4c06-9141-4cc64da8d77b" appliedPropertyValueGroups="#fe8428a5-a0ab-480f-b67d-da6e728d4845"
-              name="Rotor" nature="NODE">
-            <ownedExtensions xsi:type="smw:TcItemRevision" id="66fc961a-b3ea-4d36-82a6-440595f07845"
-                tcuid="n4KAAQGM5BWnuC" stableTcId="n0OAAQGM5BWnuC" itemId="001284"
-                revisionId="A"/>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="8ecc780f-98ac-4525-9c02-4462384ab4a5"
-                name="Turbine" abstractType="#211ecd45-f1e3-44d6-89f9-84d14878c5a9">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="f4e508eb-f373-41d1-b931-2f47b134b11e"
-                  tcuid="38MAAQGM5BWnuC" stableTcId="38OAAQGM5BWnuC"/>
-            </ownedFeatures>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f4e05e7b-c3e6-47ef-b3cc-32e0e2f8fdbc"
-                name="Shaft" abstractType="#50dfe7f7-ee1d-4728-a6ee-63c9c57804a9">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="0d60b35c-1ab8-4681-9722-ee3625a1fc9f"
-                  tcuid="HBEAAQGM5BWnuC" stableTcId="HBGAAQGM5BWnuC"/>
-            </ownedFeatures>
-            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-                id="211ecd45-f1e3-44d6-89f9-84d14878c5a9" name="Turbine" nature="NODE">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="02054133-129a-4bd1-a962-a452bc29d94d"
-                  tcuid="TTOAAQGM5BWnuC" stableTcId="DvKAAQGM5BWnuC" itemId="001234"
-                  revisionId="A"/>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="0f1f5545-b265-4fdf-88fa-302cb49d6b4b" name="PP 1">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="c3143a81-f4d1-4c92-a65e-f549bbed120e"
-                    tcuid="jvMAAQGM5BWnuC" occTcuid="0tCAAQGM5BWnuC"/>
-              </ownedFeatures>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="a7662d35-812c-4ac0-ac3b-af39d85ac728" name="PP 2">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="20ba5387-e6b9-4782-8199-e134209c75ab"
-                    tcuid="j$KAAQGM5BWnuC" occTcuid="0pJAAQGM5BWnuC"/>
-              </ownedFeatures>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="6b6d6376-6873-4eca-b646-1cba56efbc5c" name="PP 3">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="25ff18a5-6505-4d0b-9bb5-bb26d4867846"
-                    tcuid="j3AAAQGM5BWnuC" occTcuid="0pAAAQGM5BWnuC"/>
-              </ownedFeatures>
-            </ownedPhysicalComponents>
-            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-                id="50dfe7f7-ee1d-4728-a6ee-63c9c57804a9" name="Shaft" nature="NODE">
-              <ownedExtensions xsi:type="smw:TcItemRevision" id="b482188b-aa68-4220-ab6c-bf5191296c32"
-                  tcuid="TfGAAQGM5BWnuC" stableTcId="D7CAAQGM5BWnuC" itemId="001254"
-                  revisionId="A"/>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="200a2d26-f4fa-4482-9e0e-e06bd0e00b27" name="PP 1">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="160531a7-33da-4f77-b15f-e228fdd5bfa1"
-                    tcuid="j3IAAQGM5BWnuC" occTcuid="UVAAAQGM5BWnuC"/>
-              </ownedFeatures>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="bfd51d96-ea98-4962-b3cd-90299a92c631" name="PP 2">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="7d22239a-c184-4b50-b2b6-4bcd481e836e"
-                    tcuid="zDKAAQGM5BWnuC" occTcuid="UVJAAQGM5BWnuC"/>
-              </ownedFeatures>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="a6868608-df45-42b7-8211-03d919d7aed0" name="PP 3">
-                <ownedExtensions xsi:type="smw:TcItemRevision" id="2766607d-d010-4c93-8f0f-ebd349d617e2"
-                    tcuid="jvKAAQGM5BWnuC" occTcuid="URHAAQGM5BWnuC"/>
-              </ownedFeatures>
-            </ownedPhysicalComponents>
+              id="35ba97ca-2087-4623-968a-a3055e5cff57" name="Battery" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="9155fb9a-b122-487d-bbbe-db65e64963b7" name="PP 1"/>
+          </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="6d4be481-aa46-4e0e-b3e7-4392cd565946" name="Fuel Valve" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="1742c666-9fb6-4a6f-a06b-390d054b6f6b" name="PP 1"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="340325c0-f91a-4beb-98ec-010bfab52619" name="PP 2"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="59caf262-8b98-4f60-b052-a1497ad66af1" name="Fuel In"/>
+          </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="14b70bb4-bf18-47b5-a5cc-46e8a00c95d6" name="Gas Valve" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="f1bf9f68-e2f1-45d7-9476-0ff8f50d935c" name="PP 1"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="ba9a705e-3bcf-4008-a33a-4efdfc26bbaf" name="Gas Out"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="a9746043-ab0a-4a8c-a6c6-f4edf5f0c7b7" name="Gas In"/>
+          </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="4abfc70d-7a41-4db1-bbad-dda4635f4d34" name="Gas Filter" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="da9f5473-55b5-4635-ab45-fdde2e3fbb39" name="PP 1"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="2b536d85-e4b0-4ea9-987c-b8cea8767079" name="GasIn"/>
+          </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="5503a98d-482d-46ec-afc2-03a04fc30d2f" name="Fuel Filter" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="486cbc85-9a4d-4e7a-b238-d29f43f2d509" name="PP 1"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="45573ab9-68a0-47e0-a5e9-c17f01bb249e" name="Fuel In"/>
+          </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="7720b9d0-6b7b-4789-bf7e-2166f7504b67" name="Fuel Pump" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="175f62bd-6f66-4e1d-b054-93c6c8c72ed2" name="PP 1"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="5b5a761c-9940-4d26-bad3-ea8f152a2b77" name="Fuel In"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="91618c12-a6f5-4894-891e-35e3e48fbcfb" name="PP 3"/>
           </ownedPhysicalComponents>
         </ownedPhysicalComponents>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
@@ -6535,85 +6699,330 @@
             name="System" abstractType="#f5e0272e-0d43-416b-8244-445560cbabc7"/>
         <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
             id="f5e0272e-0d43-416b-8244-445560cbabc7" name="System" kind="SystemCI">
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="947ee856-5518-408d-999b-d9fb2a6b1ba5" targetElement="#12aa73a8-4b35-475b-b3a4-7c2ef80046c1"
+              sourceElement="#2ed08f30-eac1-494a-8706-a54b39ab815b"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="30250b7b-a83c-4c8d-97f0-9fc328c5258a" targetElement="#8cffdf71-0df3-4639-b327-98ff657991f2"
+              sourceElement="#be9b952d-55c0-4cfc-9481-daafd6634ca6"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="6d606541-b36b-453d-b0bc-53b495a3be36" targetElement="#18353dc7-22e9-4d0e-a219-dd8e586df719"
+              sourceElement="#727112de-b020-4527-a092-c2e17d906c4a"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="7ef1e810-8329-4431-87e6-91bb861412e4" targetElement="#65828af3-0d1c-4203-8ea9-2ad436652601"
+              sourceElement="#0d62cdd6-8122-45ab-90bc-7414bfe090ac"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="c99c8ca4-3040-4216-ad8a-ab1cbec996c1" targetElement="#95ca95a2-7d65-4710-8026-8bc28b8c4c9b"
+              sourceElement="#cd3373ef-ed2d-44a2-b3d1-e73983dcb289"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="aff58450-86c5-409f-9821-bd2b41d00476" targetElement="#ae6ba298-1432-4cbb-9b7d-79eacf1a9ab9"
+              sourceElement="#4a56dbe5-9dc4-4f81-ad37-ad631fcfa04c"/>
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="a41d563a-0fe1-4bb9-bef6-aac0c19c867c" targetElement="#0ebd082a-a000-4b11-abd5-557e9fbe3da6"
+              sourceElement="#f674c3fc-71d0-453b-b8a6-1f0678d7e785"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="6d094726-aadc-4df9-8f69-ad49f110e4d1"
               name="Engine Assembly" abstractType="#53df4cac-c1bf-4712-b827-ef19b3d8c13c"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="5e8f378f-459a-4871-ab7e-615b563c4044"
+              name="Control System" abstractType="#b79c8e32-95e9-4204-afd4-fb72c51ee887"/>
           <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
               id="53df4cac-c1bf-4712-b827-ef19b3d8c13c" name="Engine Assembly" kind="PrimeItemCI">
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="dd5e12c0-fd87-444b-a31a-7ab9c7443a58"
-                name="Control System" abstractType="#b85bdc38-e4e1-49f3-a117-7c336067eed6"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="cdd75869-fa39-43ce-819d-3f998e9747a4"
                 name="Case Exhaust Assembly" abstractType="#cfba596c-a378-48a4-9156-0db494ef8625"/>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="7c10b7e1-8038-433f-8416-9c9593319ff6"
-                name="Inlet Assembly" abstractType="#e7382db2-c173-46f5-8536-1d46b597cbf2"/>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="cad7e8e7-547a-4e44-9120-8d57839ff6de"
-                name="Case/Exhaust " abstractType="#ada98533-8890-4539-b7de-4f8db53ca04b"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="3fe22d74-1fbb-4a93-a8ff-275bb7993cd2"
                 name="Rotor Assy" abstractType="#e4f0d86d-36db-405c-bf6e-e2f43427b8a1"/>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="8df4d827-7f90-4990-b891-3176dc35c664"
-                name="Control System" abstractType="#0df87b68-82d9-4c0f-8faf-000b4ed0c4b1"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="06228917-1313-40bc-8b53-202ac17d2458"
                 name="Combustor Assy" abstractType="#5cfdaca6-1681-4df0-8571-0cea12331396"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f674c3fc-71d0-453b-b8a6-1f0678d7e785"
+                name="Inlet Assembly" abstractType="#0efacb0c-1e26-4347-9539-20bffacd80a6"/>
             <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
-                id="b85bdc38-e4e1-49f3-a117-7c336067eed6" name="Control System" kind="HWCI">
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="1ff1220c-3c9a-41cc-a0f7-ef94a5346ed9"
-                  name="Control System Software" abstractType="#496cc901-bffe-4219-bf3e-7917453f040f"/>
+                id="cfba596c-a378-48a4-9156-0db494ef8625" appliedPropertyValueGroups="#4ef8404e-f10e-4467-99bf-655eabcf5415"
+                name="Case Exhaust Assembly" kind="HWCI">
+              <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+                  id="ace436b2-aa88-4b6b-99d8-b4344d1a9719" targetElement="#139cd9f1-df60-40cb-8947-3535448ed472"
+                  sourceElement="#f5e8fd4c-5012-4b0f-9b85-ed7588114009"/>
+              <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+                  id="7bcadc82-38d6-47c3-b136-8158f178864c" targetElement="#666b7360-bd18-4f13-944a-2279235352bf"
+                  sourceElement="#2ef4584d-f0ef-4db6-83a7-6f3bf17cb697"/>
+              <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+                  id="15cfca2d-adb9-46a8-b2e0-6d53b7ef97de" targetElement="#903d928b-5dc5-4af6-b2d1-3c97493e0a04"
+                  sourceElement="#84a99bde-e436-4aa4-8a90-78e3d2fe6fa9"/>
+              <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+                  id="34fd2d4f-2e35-4c5d-bee1-fdf71395ef5a" targetElement="#e2628114-904b-47fb-8b5f-517de210c90e"
+                  sourceElement="#176970ea-6a49-425e-a748-7221c91beb01"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f5e8fd4c-5012-4b0f-9b85-ed7588114009"
+                  name="Exhaust Stator" abstractType="#c5a7bf40-50d4-4e22-a07e-cbc649080ae6"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="2ef4584d-f0ef-4db6-83a7-6f3bf17cb697"
+                  name="Exhaust Nozzle" abstractType="#f97148e5-3629-48ef-a277-3fe92be9fef5"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="84a99bde-e436-4aa4-8a90-78e3d2fe6fa9"
+                  name="Ignitor Plug" abstractType="#87fb7e21-0cba-4e86-8d70-387a49b53e64"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="176970ea-6a49-425e-a748-7221c91beb01"
+                  name="Engine Case" abstractType="#98bbb0b4-20c5-42aa-80b6-ac4751695cdb"/>
               <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
-                  id="496cc901-bffe-4219-bf3e-7917453f040f" name="Control System Software"
-                  kind="CSCI"/>
+                  id="c5a7bf40-50d4-4e22-a07e-cbc649080ae6" name="Exhaust Stator"
+                  kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="f4366870-9f1d-4a56-8cf0-52e8d79a1859" targetElement="#58c30282-a6e0-4893-9298-e9a9e8242bfb"
+                    sourceElement="#c5a7bf40-50d4-4e22-a07e-cbc649080ae6"/>
+              </ownedConfigurationItems>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="f97148e5-3629-48ef-a277-3fe92be9fef5" name="Exhaust Nozzle"
+                  kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="03c7b4e2-03e8-458b-bb3d-f265ecb9c885" targetElement="#28525c62-8c59-42a9-9aae-cbd570bc217f"
+                    sourceElement="#f97148e5-3629-48ef-a277-3fe92be9fef5"/>
+              </ownedConfigurationItems>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="87fb7e21-0cba-4e86-8d70-387a49b53e64" name="Ignitor Plug" kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="51223bc4-bad4-47e9-919e-507509903885" targetElement="#25fcbe72-41d6-41d7-9b07-a8444133d945"
+                    sourceElement="#87fb7e21-0cba-4e86-8d70-387a49b53e64"/>
+              </ownedConfigurationItems>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="98bbb0b4-20c5-42aa-80b6-ac4751695cdb" name="Engine Case" kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="375bd0bc-8337-4eff-83b5-6eac94ce32cc" targetElement="#37ecbec1-4b85-4bf2-ac1d-262d475a77df"
+                    sourceElement="#98bbb0b4-20c5-42aa-80b6-ac4751695cdb"/>
+              </ownedConfigurationItems>
+              <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                  id="9c5cf9ee-6c9c-4f39-b900-9d36a11c86be" targetElement="#ba7337d0-98d0-4290-a0c9-62f633b24a56"
+                  sourceElement="#cfba596c-a378-48a4-9156-0db494ef8625"/>
             </ownedConfigurationItems>
             <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
-                id="cfba596c-a378-48a4-9156-0db494ef8625" name="Case Exhaust Assembly"
-                kind="HWCI"/>
-            <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
-                id="e7382db2-c173-46f5-8536-1d46b597cbf2" name="Inlet Assembly" kind="HWCI">
+                id="e4f0d86d-36db-405c-bf6e-e2f43427b8a1" appliedPropertyValueGroups="#fe8428a5-a0ab-480f-b67d-da6e728d4845"
+                name="Rotor Assy" kind="HWCI">
+              <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+                  id="b446bed7-7cda-4361-85ad-1366b0095dc4" targetElement="#8ecc780f-98ac-4525-9c02-4462384ab4a5"
+                  sourceElement="#b5a287e2-6edc-4254-8a1b-162d832c8d4c"/>
+              <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+                  id="7fad8176-3be2-46b8-9691-9b04b4db43c6" targetElement="#f4e05e7b-c3e6-47ef-b3cc-32e0e2f8fdbc"
+                  sourceElement="#59122334-4f28-40a2-ac8c-73bf876b8362"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="b5a287e2-6edc-4254-8a1b-162d832c8d4c"
+                  name="Turbine" abstractType="#5f8bc8e2-cea1-4b90-bada-4f9098779f8f"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="59122334-4f28-40a2-ac8c-73bf876b8362"
+                  name="Shaft" abstractType="#f01805e9-491a-48e5-86c8-a474a92aab43"/>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="5f8bc8e2-cea1-4b90-bada-4f9098779f8f" name="Turbine" kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="8b981dd5-05ca-4b1f-80d9-d4da58cfb297" targetElement="#211ecd45-f1e3-44d6-89f9-84d14878c5a9"
+                    sourceElement="#5f8bc8e2-cea1-4b90-bada-4f9098779f8f"/>
+              </ownedConfigurationItems>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="f01805e9-491a-48e5-86c8-a474a92aab43" name="Shaft" kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="d99ac15e-0571-4215-8557-77454bf78ec4" targetElement="#50dfe7f7-ee1d-4728-a6ee-63c9c57804a9"
+                    sourceElement="#f01805e9-491a-48e5-86c8-a474a92aab43"/>
+              </ownedConfigurationItems>
               <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
-                  id="d891a35f-0939-422f-a0f0-9608d46375a1" targetElement="#c390e931-0752-4298-b5de-0318a4333183"
-                  sourceElement="#e7382db2-c173-46f5-8536-1d46b597cbf2"/>
-              <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
-                  id="73af61cd-80e7-4658-b563-bb56a54d7ece" targetElement="#3ba593ac-b4b8-49b7-9951-7c8f5790e47f"
-                  sourceElement="#e7382db2-c173-46f5-8536-1d46b597cbf2"/>
-            </ownedConfigurationItems>
-            <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
-                id="ada98533-8890-4539-b7de-4f8db53ca04b" name="Case/Exhaust " kind="HWCI">
-              <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
-                  id="b3128f77-9977-4a19-b672-8e0dfd07035d" targetElement="#58c30282-a6e0-4893-9298-e9a9e8242bfb"
-                  sourceElement="#ada98533-8890-4539-b7de-4f8db53ca04b"/>
-              <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
-                  id="60ea8dc8-5a93-4c9c-b3db-00c88817fc5d" targetElement="#28525c62-8c59-42a9-9aae-cbd570bc217f"
-                  sourceElement="#ada98533-8890-4539-b7de-4f8db53ca04b"/>
-            </ownedConfigurationItems>
-            <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
-                id="e4f0d86d-36db-405c-bf6e-e2f43427b8a1" name="Rotor Assy" kind="HWCI">
-              <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
-                  id="b92bf6b7-3774-4116-b991-c3a7bab09402" targetElement="#e262cd6c-8623-4ebf-8e77-dbac167f1061"
+                  id="c02b4b43-a326-41a3-8638-3703ec6ba15c" targetElement="#4ce48510-61a6-4c06-9141-4cc64da8d77b"
                   sourceElement="#e4f0d86d-36db-405c-bf6e-e2f43427b8a1"/>
-              <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
-                  id="b1b71a1e-f157-46a2-93fe-49c49bdd4277" targetElement="#50dfe7f7-ee1d-4728-a6ee-63c9c57804a9"
-                  sourceElement="#e4f0d86d-36db-405c-bf6e-e2f43427b8a1"/>
-              <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
-                  id="36a29ee9-e493-45f8-9a46-d4b99f42aeed" targetElement="#211ecd45-f1e3-44d6-89f9-84d14878c5a9"
-                  sourceElement="#e4f0d86d-36db-405c-bf6e-e2f43427b8a1"/>
             </ownedConfigurationItems>
             <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
-                id="0df87b68-82d9-4c0f-8faf-000b4ed0c4b1" name="Control System" kind="CSCI">
+                id="5cfdaca6-1681-4df0-8571-0cea12331396" appliedPropertyValueGroups="#765f7faf-5c7a-48d4-b7be-9d24d48a92bd"
+                name="Combustor Assy" kind="HWCI">
+              <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+                  id="4a4910ed-e69d-4de3-b39f-974b106326b6" targetElement="#417e8c0d-5213-4ca8-b163-d407243b99fb"
+                  sourceElement="#68b2b79d-851a-44f0-af8a-e0353a261ee5"/>
+              <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+                  id="297ce2c0-3f61-49df-aedd-8d004baaf03f" targetElement="#8d5513de-6277-472e-bceb-6efd1c60314c"
+                  sourceElement="#09c82ebc-c710-46f8-afb0-b48d9f24b96e"/>
+              <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+                  id="ef723880-b96c-4a96-84fb-f378bc27dd33" targetElement="#f991699f-93b5-4c1c-8f39-35f407628d6f"
+                  sourceElement="#53183128-aff2-4fbc-948b-0f4b24a1cb15"/>
+              <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+                  id="de5ef383-dc51-42d0-9b50-335c8a2abf41" targetElement="#82196f87-09ca-4018-85a5-925261b09125"
+                  sourceElement="#029e56e5-b173-4908-815e-e0146baca110"/>
+              <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+                  id="17355bc8-867e-4a61-a5a5-ecf9c769fb4a" targetElement="#2d3fb146-bccf-4192-9175-24776c1078d8"
+                  sourceElement="#cfb5d5cd-0602-4559-8ae1-efe5ea513437"/>
+              <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+                  id="d66a4f05-b5bd-4bca-ba23-715013bbe460" targetElement="#086fedbe-412b-4bef-818c-9b73320bd977"
+                  sourceElement="#792b78c9-5a8c-4c06-895a-dc45c91aa135"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="68b2b79d-851a-44f0-af8a-e0353a261ee5"
+                  name="Combustor" abstractType="#e3395aa4-5756-4677-92ad-073846034d73"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="09c82ebc-c710-46f8-afb0-b48d9f24b96e"
+                  name="Pipe Ring" abstractType="#0a686a97-ed79-433c-a51b-94362b17d5bd"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="53183128-aff2-4fbc-948b-0f4b24a1cb15"
+                  name="Adept Pipe Z" abstractType="#9689a9f3-e056-456a-8cf6-70d976fabaac"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="029e56e5-b173-4908-815e-e0146baca110"
+                  name="Compressor Disk" abstractType="#f1a1e413-cd0f-456b-9381-d9df31d80c83"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="cfb5d5cd-0602-4559-8ae1-efe5ea513437"
+                  name="Combusto Inlet Guide Vane" abstractType="#21950ba4-1af3-4e5c-9aa7-5a282127495d"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="792b78c9-5a8c-4c06-895a-dc45c91aa135"
+                  name="Combustor Shaft" abstractType="#d47b4dac-69fe-4bb3-9d3d-62a53642e374"/>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="e3395aa4-5756-4677-92ad-073846034d73" name="Combustor" kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="720ca09a-abb6-48b2-bc40-ecc78423003d" targetElement="#c66ac99e-6ec7-44d6-9487-fe1df273a053"
+                    sourceElement="#e3395aa4-5756-4677-92ad-073846034d73"/>
+              </ownedConfigurationItems>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="0a686a97-ed79-433c-a51b-94362b17d5bd" name="Pipe Ring" kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="900e9a37-2881-4603-960c-62a90c271aaa" targetElement="#7c6caee5-0772-4d80-ab9f-296f09eb5e9b"
+                    sourceElement="#0a686a97-ed79-433c-a51b-94362b17d5bd"/>
+              </ownedConfigurationItems>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="9689a9f3-e056-456a-8cf6-70d976fabaac" name="Adept Pipe Z" kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="c7ecd3d1-1d31-4560-acc5-6f0cc8e5c2ad" targetElement="#6a457dc9-a0b2-408f-9527-d4f0203de9a1"
+                    sourceElement="#9689a9f3-e056-456a-8cf6-70d976fabaac"/>
+              </ownedConfigurationItems>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="f1a1e413-cd0f-456b-9381-d9df31d80c83" name="Compressor Disk"
+                  kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="eb7fc88c-a1c2-4c5a-ba7c-3ee271b66236" targetElement="#e262cd6c-8623-4ebf-8e77-dbac167f1061"
+                    sourceElement="#f1a1e413-cd0f-456b-9381-d9df31d80c83"/>
+              </ownedConfigurationItems>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="21950ba4-1af3-4e5c-9aa7-5a282127495d" name="Combusto Inlet Guide Vane"
+                  kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="6074d2a3-f743-433d-b8d8-536ccdcda3a1" targetElement="#6bbef9f4-b58d-4092-9e9e-f1a189463d10"
+                    sourceElement="#21950ba4-1af3-4e5c-9aa7-5a282127495d"/>
+              </ownedConfigurationItems>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="d47b4dac-69fe-4bb3-9d3d-62a53642e374" name="Combustor Shaft"
+                  kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="a50b2dd9-852d-4e89-9064-698e0119b2d8" targetElement="#55e72b3b-15e0-44ac-92c4-e4cb2a48324c"
+                    sourceElement="#d47b4dac-69fe-4bb3-9d3d-62a53642e374"/>
+              </ownedConfigurationItems>
               <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
-                  id="7780c07d-d749-4246-9695-6897cdefe17b" targetElement="#c825d941-8ea4-4ef7-849d-c5147cfd19f8"
-                  sourceElement="#0df87b68-82d9-4c0f-8faf-000b4ed0c4b1"/>
+                  id="9b082a56-b141-4001-9096-e2d3c9cb17e7" targetElement="#15dea1d8-6c95-4bb0-8c98-d4fed24e067c"
+                  sourceElement="#5cfdaca6-1681-4df0-8571-0cea12331396"/>
             </ownedConfigurationItems>
             <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
-                id="5cfdaca6-1681-4df0-8571-0cea12331396" name="Combustor Assy" kind="HWCI">
+                id="0efacb0c-1e26-4347-9539-20bffacd80a6" name="Inlet Assembly" kind="COTSCI">
+              <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+                  id="35e9ec04-e35c-47c0-bf07-76419cf09c4b" targetElement="#0bab46a8-c1c0-4cfa-b680-0e74ee5d5897"
+                  sourceElement="#abf278bf-98d3-46ff-bf84-4493295c4080"/>
+              <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+                  id="06082aca-b481-4caa-84b1-a7acf1544ae0" targetElement="#c79fb7c3-8b2b-45df-b68d-2b06f96c9ee3"
+                  sourceElement="#71419517-0a3a-460c-ad46-3a1087b21f25"/>
+              <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+                  id="f1fe90a7-97d6-4b4f-b755-f562f8288672" targetElement="#5dd2a852-7be0-471c-87b4-f8da1c9184f9"
+                  sourceElement="#88bac37b-919a-4a11-a98f-9540ebe6b6af"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="abf278bf-98d3-46ff-bf84-4493295c4080"
+                  name="JetCat Starter" abstractType="#9dbba408-bfda-46d9-8c07-340fc9117afb"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="71419517-0a3a-460c-ad46-3a1087b21f25"
+                  name="Inlet" abstractType="#f4e3ef9c-24c4-4a03-b296-b68aea4140b0"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="88bac37b-919a-4a11-a98f-9540ebe6b6af"
+                  name="Inlet Support" abstractType="#c9ce7394-014f-48d4-9223-8cfb179887cf"/>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="9dbba408-bfda-46d9-8c07-340fc9117afb" name="JetCat Starter"
+                  kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="76a9a564-6c3c-494c-9b4e-5dfea953ac78" targetElement="#c390e931-0752-4298-b5de-0318a4333183"
+                    sourceElement="#9dbba408-bfda-46d9-8c07-340fc9117afb"/>
+              </ownedConfigurationItems>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="f4e3ef9c-24c4-4a03-b296-b68aea4140b0" appliedPropertyValueGroups="#3ed5fa50-3250-47ff-b925-ec55179de705"
+                  name="Inlet" kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="26d6da02-5b98-49d8-89e1-6f6f72e4709d" targetElement="#3ba593ac-b4b8-49b7-9951-7c8f5790e47f"
+                    sourceElement="#f4e3ef9c-24c4-4a03-b296-b68aea4140b0"/>
+              </ownedConfigurationItems>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="c9ce7394-014f-48d4-9223-8cfb179887cf" name="Inlet Support" kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="07925bb8-7402-4976-bd35-e2d2d08becf6" targetElement="#802a6806-d051-4178-95a9-42b8e65fcade"
+                    sourceElement="#c9ce7394-014f-48d4-9223-8cfb179887cf"/>
+              </ownedConfigurationItems>
               <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
-                  id="eda26bb5-1018-4d2b-bf27-feb0f5940d82" targetElement="#6a457dc9-a0b2-408f-9527-d4f0203de9a1"
-                  sourceElement="#5cfdaca6-1681-4df0-8571-0cea12331396"/>
-              <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
-                  id="318ea545-f223-491c-943e-2376e782d43d" targetElement="#7c6caee5-0772-4d80-ab9f-296f09eb5e9b"
-                  sourceElement="#5cfdaca6-1681-4df0-8571-0cea12331396"/>
-              <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
-                  id="7dd1a012-9063-4719-85d0-19e4335b7a5f" targetElement="#c66ac99e-6ec7-44d6-9487-fe1df273a053"
-                  sourceElement="#5cfdaca6-1681-4df0-8571-0cea12331396"/>
-              <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
-                  id="4d9c8e5c-74ff-46c5-ab35-09883a0aa736" targetElement="#6bbef9f4-b58d-4092-9e9e-f1a189463d10"
-                  sourceElement="#5cfdaca6-1681-4df0-8571-0cea12331396"/>
+                  id="cd5ed3cb-bced-4dc8-9f10-441632fe134b" targetElement="#f9ddf179-49c1-4e30-9a04-a710dfc4d055"
+                  sourceElement="#0efacb0c-1e26-4347-9539-20bffacd80a6"/>
+            </ownedConfigurationItems>
+          </ownedConfigurationItems>
+          <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+              id="b79c8e32-95e9-4204-afd4-fb72c51ee887" name="Control System" kind="PrimeItemCI">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="53ee9733-820d-4f2f-824b-98f61de055d1"
+                name="JetCat Fuel System assy" abstractType="#27cab248-81c2-4690-9f62-dd6a6948f9fd"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="79ca4774-ea5b-42f6-986d-02ac0f2a502e"
+                name="JetCat Electricatl Control System Assy" abstractType="#1b113d7d-68af-4ad2-be89-a616da0cafdd"/>
+            <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                id="27cab248-81c2-4690-9f62-dd6a6948f9fd" name="JetCat Fuel System assy"
+                kind="HWCI">
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="2ed08f30-eac1-494a-8706-a54b39ab815b"
+                  name="Fuel Pump" abstractType="#a6095ccf-6096-418b-8c8d-6290c51b70cc"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="0d62cdd6-8122-45ab-90bc-7414bfe090ac"
+                  name="Gas Valve" abstractType="#1518f077-bdf5-4123-821d-36129b16d838"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="727112de-b020-4527-a092-c2e17d906c4a"
+                  name="Fuel Valve" abstractType="#0a8ae528-6fe4-40f6-92b3-8906e55ee5f1"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="cd3373ef-ed2d-44a2-b3d1-e73983dcb289"
+                  name="Gas Filter" abstractType="#1861136a-662a-4910-9cf7-956bdc2758db"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="4a56dbe5-9dc4-4f81-ad37-ad631fcfa04c"
+                  name="Fuel Filter" abstractType="#a90bdd3c-7db8-4487-9d9f-c6250ea315f2"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="be9b952d-55c0-4cfc-9481-daafd6634ca6"
+                  name="Battery" abstractType="#a83dccfd-0fbc-4f1c-9fa1-9c83c4acbbfc"/>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="a6095ccf-6096-418b-8c8d-6290c51b70cc" name="Fuel Pump" kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="3a827208-606a-4f98-ab67-bb5af739f762" targetElement="#7720b9d0-6b7b-4789-bf7e-2166f7504b67"
+                    sourceElement="#a6095ccf-6096-418b-8c8d-6290c51b70cc"/>
+              </ownedConfigurationItems>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="1518f077-bdf5-4123-821d-36129b16d838" name="Gas Valve" kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="6043ae85-a854-42a4-b95f-dea16ac2b04d" targetElement="#14b70bb4-bf18-47b5-a5cc-46e8a00c95d6"
+                    sourceElement="#1518f077-bdf5-4123-821d-36129b16d838"/>
+              </ownedConfigurationItems>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="0a8ae528-6fe4-40f6-92b3-8906e55ee5f1" name="Fuel Valve" kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="ea9d4945-5780-4179-ae3f-d139bf598ffc" targetElement="#6d4be481-aa46-4e0e-b3e7-4392cd565946"
+                    sourceElement="#0a8ae528-6fe4-40f6-92b3-8906e55ee5f1"/>
+              </ownedConfigurationItems>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="1861136a-662a-4910-9cf7-956bdc2758db" name="Gas Filter" kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="a28c7728-57d0-43cd-b00d-946a28f469d6" targetElement="#4abfc70d-7a41-4db1-bbad-dda4635f4d34"
+                    sourceElement="#1861136a-662a-4910-9cf7-956bdc2758db"/>
+              </ownedConfigurationItems>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="a90bdd3c-7db8-4487-9d9f-c6250ea315f2" name="Fuel Filter" kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="9a83d43d-bebb-4322-beae-2f1fa4c0650c" targetElement="#5503a98d-482d-46ec-afc2-03a04fc30d2f"
+                    sourceElement="#a90bdd3c-7db8-4487-9d9f-c6250ea315f2"/>
+              </ownedConfigurationItems>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="a83dccfd-0fbc-4f1c-9fa1-9c83c4acbbfc" name="Battery" kind="COTSCI">
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="0ae2eda6-5c30-4120-9a78-9579ae5d9796" targetElement="#35ba97ca-2087-4623-968a-a3055e5cff57"
+                    sourceElement="#a83dccfd-0fbc-4f1c-9fa1-9c83c4acbbfc"/>
+              </ownedConfigurationItems>
+            </ownedConfigurationItems>
+            <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                id="1b113d7d-68af-4ad2-be89-a616da0cafdd" name="JetCat Electricatl Control System Assy"
+                kind="HWCI">
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="75cedc5f-4441-47ec-8cf4-e57a18378df1"
+                  name="Jet-Tronic ECU" abstractType="#622e1871-6e45-4c63-9f05-522642fb2ec3"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="1b61436a-d518-4020-8296-b8583530c5a7"
+                  name="JetCat ECU Data Cable" abstractType="#4dbc9adf-fb7d-45b0-9dfd-18d772982aa1"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="432cbcdd-9062-4f5a-b815-c9379954920a"
+                  name="I/O Board" abstractType="#e4c4d35d-21fd-4d03-885a-723338c07308"/>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="622e1871-6e45-4c63-9f05-522642fb2ec3" name="Jet-Tronic ECU"
+                  kind="HWCI">
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="a1235794-e05c-4b69-b352-3ae4cc8fcf43"
+                    name="ECU Software" abstractType="#c74b9d30-b1eb-4c4b-90e7-0269924eaf87"/>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="b2a8b2bc-b66f-4b1b-a9b8-db2f2162cbed"
+                    name="ECU Hardware" abstractType="#8aba3c25-f012-483e-aef9-9883bdea94d3"/>
+                <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                    id="c74b9d30-b1eb-4c4b-90e7-0269924eaf87" name="ECU Software"
+                    kind="CSCI"/>
+                <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                    id="8aba3c25-f012-483e-aef9-9883bdea94d3" name="ECU Hardware"
+                    kind="HWCI"/>
+                <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
+                    id="e3875bf9-e466-4969-8cb3-f67782a12350" targetElement="#c825d941-8ea4-4ef7-849d-c5147cfd19f8"
+                    sourceElement="#622e1871-6e45-4c63-9f05-522642fb2ec3"/>
+              </ownedConfigurationItems>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="4dbc9adf-fb7d-45b0-9dfd-18d772982aa1" name="JetCat ECU Data Cable"
+                  kind="HWCI"/>
+              <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
+                  id="e4c4d35d-21fd-4d03-885a-723338c07308" name="I/O Board" kind="HWCI"/>
             </ownedConfigurationItems>
           </ownedConfigurationItems>
           <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
